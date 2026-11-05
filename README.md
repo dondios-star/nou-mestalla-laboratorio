@@ -1,8 +1,8 @@
 # Nou Mestalla · laboratorio de vídeo
 
-Base común para los episodios **41, 42, 44 y 45** de Alberto Villa. Los cuatro prompts originales y la referencia de marca se conservan en la raíz. **Los episodios todavía no están producidos ni registrados como composiciones.**
+Base común para los episodios **41, 42, 44 y 45** de Alberto Villa. Los cuatro prompts originales y la referencia de marca se conservan en la raíz. **El episodio 45 está implementado en su rama propia**; los episodios 41, 42 y 44 siguen pendientes y se conservan sin cambios. [Entrega, render y límites de revisión del 45](docs/episodes/ep45/README.md).
 
-La única composición es `BaseTecnica`: una prueba de cinco segundos con comentarios, rebobinado, móvil, tipografía local y geometría 3D provisional. No es una reconstrucción validada del Nou Mestalla.
+Composiciones: `NouMestalla45AforoDecision` (59 s) y `BaseTecnica` (prueba de cinco segundos con geometría provisional). La prueba técnica se conserva; el episodio tiene sus propios modelos y recursos.
 
 ## Arranque
 
@@ -45,7 +45,7 @@ El render y el visor funcionan con **SwiftShader por software**. Se comprobó H.
 
 Se pudo leer el [proyecto editable de La Velada](https://github.com/dondios-star/velada-laboratorio). Se adaptaron componentes genéricos y se copiaron las fuentes con licencia; no se copiaron personajes, planos, escenas, vídeos ni contenido argumental. El repositorio original no se modificó. [Registro de reutilización](docs/setup/REUTILIZACION.md).
 
-**Pendiente de acceso web:** la política de este entorno bloquea las páginas del Valencia CF y las fuentes fotográficas. Se guardó una propuesta de dominios en la configuración del entorno. El [catálogo](referencias/comunes/nou-mestalla/catalogo.json) contiene fuentes candidatas procedentes de los prompts; todavía no hay fotografías ni renders del estadio descargados o verificados.
+Durante la preparación inicial faltaba acceso web. En la producción del 45 se inspeccionó la carpeta `Imágenes`, ya incorporada a main, y se consultaron fuentes oficiales con acceso de red disponible. [Investigación y permisos del 45](docs/episodes/ep45/fuentes.md). El [catálogo común](referencias/comunes/nou-mestalla/catalogo.json) conserva candidatos históricos; no equivale a una investigación completada para los otros episodios.
 
 El adjunto de 53 segundos supera los 32 MiB admitidos por la herramienta de descarga. Se inspeccionaron código y dos capturas del proyecto editable, pero no se pudo reproducir el MP4 completo. Para revisar fielmente su ritmo hace falta una copia comprimida por debajo de ese límite o una ubicación accesible del archivo. **No hace falta el ZIP del proyecto.**
 

@@ -1,0 +1,199 @@
+{
+  "video": "out/ep45/Nou_Mestalla_45_Aforo_Decision_59s.mp4",
+  "probe": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60.0,
+    "duration": 59.0,
+    "frames": 3540
+  },
+  "safe_box": {
+    "x": 54,
+    "y": 96,
+    "w": 972,
+    "h": 1594,
+    "family": "feed"
+  },
+  "beats": {
+    "gancho": 135,
+    "comentarios": 420,
+    "rebobinado": 645,
+    "rol": 825,
+    "demanda": 1065,
+    "viabilidad": 1335,
+    "objetivo": 1605,
+    "opcion-a": 1920,
+    "opcion-b": 2280,
+    "opcion-c": 2640,
+    "resumen": 3090,
+    "cierre": 3450
+  },
+  "checks": {
+    "contact.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-first.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-mid.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-last.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "safe-first.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "safe-mid.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "safe-last.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-gancho.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-comentarios.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-rebobinado.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-rol.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-demanda.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-viabilidad.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-objetivo.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-opcion-a.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-opcion-b.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-opcion-c.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-resumen.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-cierre.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "luminance": {
+      "status": "pass",
+      "frames_analysed": 3540,
+      "jumps": [
+        {
+          "frame": 720,
+          "delta": 80.3
+        }
+      ],
+      "jumps_total": 1,
+      "detail": "each jump must be an intended cut; a jump inside a beat is a defect (unloaded font, missing asset)"
+    },
+    "poster frame reads alone": {
+      "status": "pass",
+      "detail": "estadio, simulacion y pregunta visibles desde frame 0"
+    },
+    "text inside safe box": {
+      "status": "pass",
+      "detail": "muestras dentro del marco feed del script; area orientativa propia y rotulos secundarios documentados en qa.md"
+    },
+    "readable at phone width": {
+      "status": "pass",
+      "detail": "inspeccion de mensajes, dos comentarios y A/B/C a 360 px"
+    },
+    "nothing essential in the bottom band": {
+      "status": "pass",
+      "detail": "datos y decisiones principales por encima; rotulos secundarios documentados"
+    },
+    "CTA still": {
+      "status": "pass",
+      "detail": "estados 3384 y 3539 inspeccionados, opciones presentes"
+    },
+    "loop seam continuous (if loop)": {
+      "status": "pass",
+      "detail": "no aplica, video con cierre"
+    },
+    "credits present (if required)": {
+      "status": "pass",
+      "detail": "marca Alberto Villa; sin material de terceros que requiera credito en pantalla"
+    },
+    "luminance jumps are intended cuts": {
+      "status": "pass",
+      "detail": "unico salto en 720, corte deliberado estadio a maqueta"
+    }
+  },
+  "continuousPerceptualPlayback": {
+    "completed": false,
+    "reason": "No video-perception playback tool; visual sampling only. See qa.md."
+  },
+  "inspectedFinalTransitionFrames": [
+    0,
+    238,
+    269,
+    271,
+    360,
+    480,
+    569,
+    571,
+    640,
+    719,
+    721,
+    735,
+    749,
+    750,
+    929,
+    931,
+    951,
+    1199,
+    1201,
+    1380,
+    1469,
+    1471,
+    1610,
+    1725,
+    1739,
+    1741,
+    1950,
+    2099,
+    2101,
+    2310,
+    2459,
+    2461,
+    2670,
+    2819,
+    2821,
+    3000,
+    3359,
+    3361,
+    3384,
+    3539
+  ]
+}

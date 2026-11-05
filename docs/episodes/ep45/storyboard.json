@@ -1,0 +1,53 @@
+{
+  "fps": 60,
+  "beats": [
+    {
+      "id": "gancho",
+      "duration_s": 4.5
+    },
+    {
+      "id": "comentarios",
+      "duration_s": 5
+    },
+    {
+      "id": "rebobinado",
+      "duration_s": 2.5
+    },
+    {
+      "id": "rol",
+      "duration_s": 3.5
+    },
+    {
+      "id": "demanda",
+      "duration_s": 4.5
+    },
+    {
+      "id": "viabilidad",
+      "duration_s": 4.5
+    },
+    {
+      "id": "objetivo",
+      "duration_s": 4.5
+    },
+    {
+      "id": "opcion-a",
+      "duration_s": 6
+    },
+    {
+      "id": "opcion-b",
+      "duration_s": 6
+    },
+    {
+      "id": "opcion-c",
+      "duration_s": 6
+    },
+    {
+      "id": "resumen",
+      "duration_s": 9
+    },
+    {
+      "id": "cierre",
+      "duration_s": 3
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "file": "Nou_Mestalla_45_Aforo_Decision_59s.mp4",
+  "sha256": "1f6802df9aef3e3b4ed269ae2500d28fd4337cc1a061359c554d7ee4b3f7f7b0",
+  "bytes": 7313719,
+  "video": {
+    "codec_name": "h264",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "color_space": "bt709",
+    "avg_frame_rate": "60/1",
+    "duration": "59.000000",
+    "nb_read_frames": "3540"
+  },
+  "audioTracks": 0,
+  "fullDecode": "pass",
+  "blackFrames": "none detected at 98% black threshold",
+  "originalImagesUnchanged": 12,
+  "seek": {
+    "frames": [
+      60,
+      1380,
+      3000,
+      60,
+      1380
+    ],
+    "hashes": [
+      "02419085ef786b5e5ef7f6c7bdae9161f658abe02df002e955fc9a8307a98c58",
+      "c88f33d7a96de0cea9a1eaa15f36501f281a39c322544682636b767db240f43f",
+      "ba10a0b01d9b38cfc457fbbebf285279467f10cdd54d11ad1ab4d859f89a4697",
+      "02419085ef786b5e5ef7f6c7bdae9161f658abe02df002e955fc9a8307a98c58",
+      "c88f33d7a96de0cea9a1eaa15f36501f281a39c322544682636b767db240f43f"
+    ],
+    "repeatIdentical": true
+  },
+  "visualReview": "See docs/episodes/ep45/qa.md; metadata and frame extraction are not a complete visual playback review."
+}

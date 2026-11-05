@@ -1,0 +1,65 @@
+[
+  {
+    "file": "hero.mp4",
+    "sha256": "1e336b0040d9166b5ebb04f4effc0195253695c1f5d66509544aeb89c52a1d29",
+    "bytes": 931892,
+    "origin": "render original de las fuentes de este episodio",
+    "inVideo": true
+  },
+  {
+    "file": "sector-A.mp4",
+    "sha256": "2ddbf69ca6a3ad8e6b60a98618421963af3aefe2261bad4ee99ba230e13bba18",
+    "bytes": 192119,
+    "origin": "render original de las fuentes de este episodio",
+    "inVideo": true
+  },
+  {
+    "file": "sector-A.png",
+    "sha256": "79fe4b1e575d1f1e451dd1079c0589345e6023ad53e556bb19307c0996d59c5e",
+    "bytes": 243224,
+    "origin": "render original de las fuentes de este episodio",
+    "inVideo": true
+  },
+  {
+    "file": "sector-B.mp4",
+    "sha256": "2dbf73c8e62fdf833b397d5b4e09f553c3766feea1955fc970a1a4f5a966ef83",
+    "bytes": 425715,
+    "origin": "render original de las fuentes de este episodio",
+    "inVideo": true
+  },
+  {
+    "file": "sector-B.png",
+    "sha256": "c1d1c990607949f3d17c253644a97394e30d93865c7e7844690280bde9864c45",
+    "bytes": 221116,
+    "origin": "render original de las fuentes de este episodio",
+    "inVideo": true
+  },
+  {
+    "file": "sector-C.mp4",
+    "sha256": "71963d3d660443edcbcd02c9d2aa62cf09b98295165a16baefcd862d85ce2def",
+    "bytes": 194044,
+    "origin": "render original de las fuentes de este episodio",
+    "inVideo": true
+  },
+  {
+    "file": "sector-C.png",
+    "sha256": "87afc47aecf10797723032e9cdac388b48295cd62827655aebd4f3272e3384f4",
+    "bytes": 166775,
+    "origin": "render original de las fuentes de este episodio",
+    "inVideo": true
+  },
+  {
+    "file": "sector-base.png",
+    "sha256": "938bc20e81bbf737220f4a5a7385d79d7d3315c29590765be8b88d32e803a3e0",
+    "bytes": 158888,
+    "origin": "render original de las fuentes de este episodio",
+    "inVideo": true
+  },
+  {
+    "file": "stadium.jpg",
+    "sha256": "d8d8e70461d717af2eef6e82204ad42957dca50cfc220f9ff55fa17c20011b35",
+    "bytes": 301737,
+    "origin": "render original de las fuentes de este episodio",
+    "inVideo": true
+  }
+]
