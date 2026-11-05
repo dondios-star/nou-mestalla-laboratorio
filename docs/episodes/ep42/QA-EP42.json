@@ -1,0 +1,183 @@
+{
+  "video": "out/ep42/Nou_Mestalla_42_Reinicio_Decision_59s.mp4",
+  "probe": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 60.0,
+    "duration": 59.0,
+    "frames": 3540
+  },
+  "safe_box": {
+    "x": 54,
+    "y": 96,
+    "w": 972,
+    "h": 1594,
+    "family": "feed"
+  },
+  "beats": {
+    "gancho": 120,
+    "comentarios": 360,
+    "rebobinado": 540,
+    "mesa": 690,
+    "marta": 930,
+    "leo": 1230,
+    "nuria": 1530,
+    "pregunta": 1770,
+    "a": 2040,
+    "b": 2400,
+    "c": 2760,
+    "voto": 3090,
+    "continuacion": 3300,
+    "marca": 3450
+  },
+  "checks": {
+    "contact.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-first.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-mid.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-last.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "safe-first.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "safe-mid.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "safe-last.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-gancho.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-comentarios.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-rebobinado.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-mesa.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-marta.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-leo.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-nuria.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-pregunta.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-a.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-b.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-c.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-voto.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-continuacion.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "phone-beat-marca.png": {
+      "status": "pass",
+      "detail": ""
+    },
+    "luminance": {
+      "status": "pass",
+      "frames_analysed": 3540,
+      "jumps": [
+        {
+          "frame": 240,
+          "delta": -42.4
+        },
+        {
+          "frame": 3240,
+          "delta": -140.7
+        }
+      ],
+      "jumps_total": 2,
+      "detail": "each jump must be an intended cut; a jump inside a beat is a defect (unloaded font, missing asset)"
+    },
+    "poster frame reads alone": {
+      "status": "pass",
+      "detail": "El frame 0 contiene estadio, identificacion de simulacion y periodo. El gancho entra entre 24 y 55, como pide el prompt; no es una portada con titular desde 0."
+    },
+    "text inside safe box": {
+      "status": "pass",
+      "detail": "Texto esencial inspeccionado en 15 mascaras de la guia oficial LinkedIn: x112..870, y260..1360. No equivale a vista previa en una cuenta real."
+    },
+    "readable at phone width": {
+      "status": "pass",
+      "detail": "Abiertas las 17 vistas de 390 px; gancho, comentarios principales, mensajes, pregunta, alternativas y CTA legibles. Miniaturas y rotulos tecnicos son apoyo secundario."
+    },
+    "nothing essential in the bottom band": {
+      "status": "pass",
+      "detail": "Pie repetido decorativo fuera de la guia oficial; nombre de marca y mensaje final dentro de la zona segura."
+    },
+    "CTA still": {
+      "status": "pass",
+      "detail": "CTA y opciones asentadas entre 2964 y 3239; comparados 2964,3050,3238,3239 y muestras por segundo."
+    },
+    "loop seam continuous (if loop)": {
+      "status": "pass",
+      "detail": "No aplica; episodio con cierre, no se disena como bucle."
+    },
+    "credits present (if required)": {
+      "status": "pass",
+      "detail": "MP4 con geometria, ilustraciones y UI propias. Fotos externas solo como referencia. Licencias OFL de fuentes y procedencias documentadas en el proyecto."
+    },
+    "luminance jumps are intended cuts": {
+      "status": "pass",
+      "detail": "Saltos detectados en 240 (-42.4) por oscurecer la publicacion y 3240 (-140.7) por corte al cierre burdeos. Inspeccionados antes y despues; son cambios previstos."
+    }
+  },
+  "reviewScope": {
+    "decodedTransitionSamples": 144,
+    "transitionSheetsOpened": 24,
+    "contactSamplesOpened": 59,
+    "phoneViewsOpened": 17,
+    "officialSafeMasksOpened": 15,
+    "normalSpeedVisualPlayback": "not available; fluency not certified",
+    "actualLinkedInPreview": "not performed",
+    "officialSafeBox": {
+      "x": 112,
+      "y": 260,
+      "width": 758,
+      "height": 1100
+    }
+  },
+  "videoSha256": "e345ba96c20acd941b5ffc4e510d457520c11e7f44c8d93e661d4ffea798ddc5"
+}

@@ -12,7 +12,10 @@
     "render:smoke": "node scripts/render-smoke.mjs",
     "verify": "python3 scripts/verify-smoke.py",
     "validate": "npm run typecheck && npm test && npm run render:smoke && npm run verify",
-    "check:studio": "node scripts/inspect-studio.mjs"
+    "check:studio": "node scripts/inspect-studio.mjs",
+    "render:ep42": "node scripts/ep42-render.mjs final",
+    "verify:ep42": "python3 scripts/ep42-verify.py",
+    "assets:ep42": "node scripts/ep42-render.mjs cache && python3 scripts/ep42-assets.py && node scripts/ep42-render.mjs stills 1770,2020,2380,2740 && python3 scripts/ep42-assets.py"
   },
   "dependencies": {
     "@react-three/fiber": "9.8.2",

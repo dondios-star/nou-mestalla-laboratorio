@@ -1,0 +1,64 @@
+{
+  "fps": 60,
+  "width": 1080,
+  "height": 1920,
+  "duration_s": 59,
+  "beats": [
+    {
+      "id": "gancho",
+      "duration_s": 4
+    },
+    {
+      "id": "comentarios",
+      "duration_s": 4
+    },
+    {
+      "id": "rebobinado",
+      "duration_s": 2
+    },
+    {
+      "id": "mesa",
+      "duration_s": 3
+    },
+    {
+      "id": "marta",
+      "duration_s": 5
+    },
+    {
+      "id": "leo",
+      "duration_s": 5
+    },
+    {
+      "id": "nuria",
+      "duration_s": 5
+    },
+    {
+      "id": "pregunta",
+      "duration_s": 3
+    },
+    {
+      "id": "a",
+      "duration_s": 6
+    },
+    {
+      "id": "b",
+      "duration_s": 6
+    },
+    {
+      "id": "c",
+      "duration_s": 6
+    },
+    {
+      "id": "voto",
+      "duration_s": 5
+    },
+    {
+      "id": "continuacion",
+      "duration_s": 2
+    },
+    {
+      "id": "marca",
+      "duration_s": 3
+    }
+  ]
+}

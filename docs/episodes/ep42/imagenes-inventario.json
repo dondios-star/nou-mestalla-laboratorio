@@ -1,0 +1,159 @@
+[
+  {
+    "file": "Imágenes/Interior 3.jpg",
+    "sha256": "5c7c16254848e8efb5866fcafab9b688862559e98d103cd21ca09551ce0d9f2f",
+    "size": [
+      1920,
+      1080
+    ],
+    "exif": {
+      "296": "2",
+      "34665": "102",
+      "274": "1",
+      "531": "1",
+      "282": "96.0",
+      "283": "96.0"
+    },
+    "captureMetadata": {}
+  },
+  {
+    "file": "Imágenes/Exterior nuevo 2ç.webp",
+    "sha256": "b2246df13f4a7d8c75abef53f05e733977072e4eb7c01d22cdebb9ee46eace55",
+    "size": [
+      1200,
+      840
+    ],
+    "exif": {},
+    "captureMetadata": {}
+  },
+  {
+    "file": "Imágenes/Exterior nuevo.jfif",
+    "sha256": "a205160cd737d97861b7cb3ec4ebc870ecb3f8b90062a2ddc2e0de573fa77c24",
+    "size": [
+      335,
+      597
+    ],
+    "exif": {},
+    "captureMetadata": {}
+  },
+  {
+    "file": "Imágenes/Interior.avif",
+    "sha256": "6e31ea89fb9d4ea0d871e39ecc50b5623538418e0abc8310d79e2da9ba4fa02b",
+    "size": [
+      1960,
+      1103
+    ],
+    "exif": {},
+    "captureMetadata": {}
+  },
+  {
+    "file": "Imágenes/Exterior.avif",
+    "sha256": "87e53141c6eb3696d8000c29ddd6249c99d1f58a1fc6ac7d9ae2cb11895bd142",
+    "size": [
+      644,
+      362
+    ],
+    "exif": {},
+    "captureMetadata": {}
+  },
+  {
+    "file": "Imágenes/Vista superior.jpg",
+    "sha256": "549d3d0b0ce77a27aefb546724b607ef6005014e1d9f6ad79e2fb67e7e7bcdba",
+    "size": [
+      1920,
+      1280
+    ],
+    "exif": {},
+    "captureMetadata": {}
+  },
+  {
+    "file": "Imágenes/Exterior nuevo 3.avif",
+    "sha256": "87e53141c6eb3696d8000c29ddd6249c99d1f58a1fc6ac7d9ae2cb11895bd142",
+    "size": [
+      644,
+      362
+    ],
+    "exif": {},
+    "captureMetadata": {}
+  },
+  {
+    "file": "Imágenes/Esquema.png",
+    "sha256": "806cbeb84908a629c6efd4475b3fe050cc0f66d95d9879920c436ba09f4b6875",
+    "size": [
+      1041,
+      565
+    ],
+    "exif": {},
+    "captureMetadata": {}
+  },
+  {
+    "file": "Imágenes/Interior 5.jpg",
+    "sha256": "e547a26f19a38576b46eae2d0017f371802b2dd72eedf899c62d9c8707f24eff",
+    "size": [
+      1920,
+      1080
+    ],
+    "exif": {
+      "296": "2",
+      "34665": "90",
+      "274": "1",
+      "282": "96.0",
+      "283": "96.0"
+    },
+    "captureMetadata": {}
+  },
+  {
+    "file": "Imágenes/Interior 2.jpg",
+    "sha256": "d2384d88f4b43436f5735b2e12c193797a77797bfd59ebb6572c1614bc8111d3",
+    "size": [
+      1200,
+      675
+    ],
+    "exif": {
+      "296": "2",
+      "34665": "102",
+      "274": "1",
+      "531": "1",
+      "282": "72.0",
+      "283": "72.0"
+    },
+    "captureMetadata": {}
+  },
+  {
+    "file": "Imágenes/Interior 4.jpeg",
+    "sha256": "7075ff05fa217a534a31cacb850a04d3551a9b9f41f1f50ae59001d4accde510",
+    "size": [
+      1500,
+      1000
+    ],
+    "exif": {
+      "296": "2",
+      "34665": "212",
+      "271": "Canon",
+      "272": "Canon EOS R5m2",
+      "305": "Adobe Photoshop Camera Raw 18.6 (Macintosh)",
+      "306": "2026:09:04 09:35:41",
+      "282": "72.0",
+      "283": "72.0"
+    },
+    "captureMetadata": {
+      "DateTimeOriginal": "2026:09:04 08:59:11",
+      "DateTimeDigitized": "2026:09:04 08:59:11",
+      "OffsetTime": "+02:00",
+      "OffsetTimeOriginal": "+01:00"
+    }
+  },
+  {
+    "file": "Imágenes/Exterior 2013.jpg",
+    "sha256": "96c13a24fa065849330e327e80f0be66497d94f42d4578a5a2295e56079aa293",
+    "size": [
+      330,
+      187
+    ],
+    "exif": {
+      "531": "1",
+      "270": "          "
+    },
+    "captureMetadata": {}
+  }
+]
