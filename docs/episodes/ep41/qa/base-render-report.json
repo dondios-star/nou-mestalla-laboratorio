@@ -1,0 +1,29 @@
+{
+  "composition": "BaseTecnica",
+  "dimensions": [
+    1080,
+    1920
+  ],
+  "fps": 60,
+  "frames": 300,
+  "browserExecutable": "/usr/bin/chromium",
+  "chromiumOptions": {
+    "gl": "swangle"
+  },
+  "backend": "software ANGLE / SwiftShader",
+  "seekOrder": [
+    60,
+    220,
+    0,
+    60
+  ],
+  "hashes": [
+    "48fcdcae1fd343387ea199627c0b6cfa33d3583f9bf7f50104515130480b9c79",
+    "c4ae8d993f209e2153e1d5ede07dce32fa3893f6618d6be06ba92c8d8dd09b2f",
+    "5857385c5a8ab302bd91c614308b4d9b2ca8e679518b324c77d14e76d2c79db1",
+    "48fcdcae1fd343387ea199627c0b6cfa33d3583f9bf7f50104515130480b9c79"
+  ],
+  "seekRepeatIdentical": true,
+  "elapsedSeconds": 156.156,
+  "completedAt": "2026-11-05T19:28:49.775Z"
+}

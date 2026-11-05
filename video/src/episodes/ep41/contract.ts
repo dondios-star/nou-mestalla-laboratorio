@@ -1,4 +1,4 @@
-// Delivery contract only. This episode is not implemented or registered.
+// Delivery metadata. Implemented by NouMestalla41Decision in Episode.tsx.
 import {delivery} from '../../shared/brand/tokens';
 
 export const episode = {
@@ -7,6 +7,6 @@ export const episode = {
   compositionId: 'NouMestalla41Decision',
   outputFile: 'Nou_Mestalla_41_Decision_59s.mp4',
   prompt: 'Prompt_Codex_Nou_Mestalla_41.txt',
-  status: 'not-produced',
+  status: 'produced',
   ...delivery,
 } as const;

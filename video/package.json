@@ -12,7 +12,10 @@
     "render:smoke": "node scripts/render-smoke.mjs",
     "verify": "python3 scripts/verify-smoke.py",
     "validate": "npm run typecheck && npm test && npm run render:smoke && npm run verify",
-    "check:studio": "node scripts/inspect-studio.mjs"
+    "check:studio": "node scripts/inspect-studio.mjs",
+    "render:ep41": "node scripts/ep41-render.mjs final",
+    "stills:ep41": "node scripts/ep41-render.mjs stills",
+    "verify:ep41": "python3 scripts/ep41-verify.py"
   },
   "dependencies": {
     "@react-three/fiber": "9.8.2",

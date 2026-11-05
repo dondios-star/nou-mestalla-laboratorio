@@ -1,0 +1,199 @@
+{
+  "probe": {
+    "codec_name": "h264",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "color_space": "bt709",
+    "r_frame_rate": "60/1",
+    "avg_frame_rate": "60/1",
+    "duration": "59.000000",
+    "nb_read_frames": "3540"
+  },
+  "fullDecode": "pass",
+  "decodedFrames": 3540,
+  "blackFrames": [],
+  "luminanceJumpsAtLeast40": [
+    {
+      "frame": 583,
+      "delta": 40.49
+    }
+  ],
+  "adjacentMovingFramesDistinct": true,
+  "sampleFrames": [
+    0,
+    47,
+    53,
+    57,
+    61,
+    100,
+    119,
+    123,
+    128,
+    175,
+    250,
+    320,
+    440,
+    539,
+    540,
+    600,
+    647,
+    648,
+    680,
+    719,
+    780,
+    1090,
+    1170,
+    1200,
+    1224,
+    1350,
+    1500,
+    1530,
+    1630,
+    1740,
+    1750,
+    1765,
+    1799,
+    1800,
+    1840,
+    1900,
+    2010,
+    2050,
+    2170,
+    2256,
+    2279,
+    2280,
+    2320,
+    2440,
+    2526,
+    2549,
+    2550,
+    2600,
+    2710,
+    2796,
+    2820,
+    2849,
+    3000,
+    3149,
+    3150,
+    3220,
+    3300,
+    3312,
+    3420,
+    3539
+  ],
+  "sha256": "0dd2b6c8956e755ef68d337c6434f0dc0982f5b7d90cef5192b2e050e79e697d",
+  "visualReview": "Completed by frame sampling and phone-width inspection; continuous visual playback not observed.",
+  "checks": {
+    "poster": {
+      "status": "pass",
+      "evidence": [
+        0
+      ],
+      "note": "Aficionado, estadio recreado, título y año presentes desde frame 0."
+    },
+    "phoneLegibility": {
+      "status": "pass",
+      "evidence": [
+        250,
+        320,
+        440,
+        780,
+        1090,
+        1350,
+        1630,
+        1900,
+        2170,
+        2440,
+        2710,
+        3000,
+        3420
+      ],
+      "note": "Inspección visual de capturas a 390 px, sin ampliar."
+    },
+    "safeArea": {
+      "status": "pass",
+      "evidence": [
+        0,
+        1630,
+        3000,
+        3539
+      ],
+      "note": "Texto esencial dentro de la guía x80–930/y150–1580; pies del personaje y firma de pie secundarios fuera."
+    },
+    "historyAndFiction": {
+      "status": "pass",
+      "evidence": [
+        0,
+        440,
+        780,
+        3420
+      ]
+    },
+    "rewind": {
+      "status": "pass",
+      "evidence": [
+        539,
+        540,
+        600,
+        647,
+        648
+      ],
+      "note": "Misma función de escena con sourceFrame 539→0; test monótono y secuencia decodificada."
+    },
+    "luminance583": {
+      "status": "reviewed-intended",
+      "evidence": [
+        581,
+        582,
+        583,
+        584,
+        585
+      ],
+      "note": "Tarjetas arena reaparecen durante la inversión acelerada; no pérdida de fuentes o assets. No certifica seguridad de destellos."
+    },
+    "conditionsBeforeChoice": {
+      "status": "pass",
+      "evidence": [
+        1090,
+        1350,
+        1630,
+        1900
+      ]
+    },
+    "equalOptionsAndNoAnswer": {
+      "status": "pass",
+      "evidence": [
+        2170,
+        2440,
+        2710,
+        3000
+      ],
+      "note": "Cámara, luz, escala y tratamiento comparables; recomendación reservada fuera del MP4."
+    },
+    "steadyReadingAndClosing": {
+      "status": "pass-by-sampling-and-source",
+      "evidence": [
+        1350,
+        1630,
+        1900,
+        3000,
+        3149,
+        3420,
+        3539
+      ]
+    },
+    "continuousVisualPlayback": {
+      "status": "not-observed",
+      "note": "No herramienta para observar directamente vídeo continuo. Reproducción técnica Chromium 1x completa; inspección visual mediante frames y tiras."
+    },
+    "platformPreview": {
+      "status": "not-performed",
+      "note": "No publicación ni prueba en redes autorizada/realizada."
+    },
+    "architecturalPrecision": {
+      "status": "approximation",
+      "note": "Rasgos generales contrastados; no BIM ni reconstrucción fotogramétrica. Aficionado 2D generado y entorno sintético."
+    }
+  }
+}

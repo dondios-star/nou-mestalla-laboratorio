@@ -1,0 +1,13 @@
+{
+  "time": 59,
+  "duration": 59,
+  "ended": true,
+  "playbackRate": 1,
+  "width": 1080,
+  "height": 1920,
+  "paused": true,
+  "decodedFrames": 3540,
+  "droppedFrames": 16,
+  "error": null,
+  "scope": "Chromium decoded and played at 1x to ended. No continuous visual observation claimed."
+}

@@ -1,0 +1,31 @@
+{
+  "composition": "NouMestalla41Decision",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "durationInFrames": 3540,
+  "format": "H.264 / yuv420p / BT.709 / CRF 18",
+  "sourceFrames": "native PNG at 1080x1920; no upscale",
+  "backend": "Chromium / ANGLE SwiftShader CPU",
+  "files_sha256": {
+    "video/package-lock.json": "f7a6d5dcc62175514f046e581359519bbd100dae99dd0fa52be1dc91419f721e",
+    "video/public/assets/ep41/.gitkeep": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "video/public/assets/ep41/aficionado-tres-edades.png": "95bc2f877f4c453347e77d420ba473e67d859a01fb2b11a480235ff71cb49b23",
+    "video/src/episodes/ep41/Episode.tsx": "6e3da495ff816e4ccb568784f6b545fb5651039e9fe24f45caea976f596918ab",
+    "video/src/episodes/ep41/NouMestalla3D.tsx": "5695d7f532585245242d79bd2d758fda7651dee65b4ec4f4a3ff867f398e3461",
+    "video/src/episodes/ep41/Opening.tsx": "b2a5b3de17ba1b59a084c8681352ec43251752cccb1eb8d4669012ac6a77f080",
+    "video/src/episodes/ep41/contract.ts": "3a8a9300990a3a6eda8e565464c5b014f79042d4ed157e4474ddcc3bcc488c14",
+    "video/src/episodes/ep41/timeline.ts": "2aff41e1aa758ccb886bbe726d1cbd0df9447a058a3befad8bf15a287dd926c5",
+    "video/src/index.tsx": "b7335c3bb893a773ccdf0b2c49a902c1857c2151b869de70670f9956bf199c0c",
+    "video/src/shared/brand/fonts.ts": "27e0dceb6ba7861ea55464c508d3528bd9e30f801b2825929c44d0ffe2464f26",
+    "video/src/shared/brand/tokens.ts": "190f08edcfc863b5fffc0475ea79e7f0a9dd6a7b595c69fefae210d6bba5c49b",
+    "video/src/shared/motion/time.ts": "fdbb96298fd68017c7db095f8c03a1a6417fda5f3d02daf376ab7fb30db98142",
+    "video/src/shared/three/StadiumStudy.tsx": "1485b9fc9b1dfb139976b471d2254d5757228e403e18c10c86993b5d99721d49",
+    "video/src/shared/ui/CommentStack.tsx": "1b03fd8315dc33a7720382525abfbabb6c2f3cf6e7c5c574a956cdded842501e",
+    "video/src/shared/ui/Icons.tsx": "8adc215c243376ce37db196cbfb152f2077ce8c189532b0ef3c8178fd5be2597",
+    "video/src/shared/ui/Phone.tsx": "584c21a59b8c8c0a4594cc373b25ede0d4129f93646673f5f2ad04360c8c0057"
+  },
+  "metadataUpdatesAfterRender": [
+    "contract.ts: estado produced; el contrato no se importa en la composición y no afecta a los frames."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "NouMestalla41Decision",
+  "width": 1080,
+  "height": 1920,
+  "fps": 60,
+  "frames": 3540,
+  "elapsed": 1037.069,
+  "backend": "ANGLE SwiftShader CPU",
+  "crf": 18
+}
