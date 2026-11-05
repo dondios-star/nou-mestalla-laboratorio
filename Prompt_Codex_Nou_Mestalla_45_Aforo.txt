@@ -1,0 +1,742 @@
+PROMPT DE PRODUCCIÓN PARA CODEX
+NOU MESTALLA · EPISODIO 45
+EL ESTADIO CAMBIA DE TAMAÑO SOBRE EL MISMO HORMIGÓN
+Alberto Villa · Preparado el 5 de noviembre de 2026
+
+Lee este archivo íntegro y ejecuta el encargo en el repositorio seleccionado. Implementa, renderiza y revisa el vídeo; entrega el MP4 y las fuentes editables. No te limites a devolver otro prompt, una propuesta o una captura del editor.
+
+Este archivo desarrolla la ficha 45 de Info.docx y la revisión posterior aceptada en la conversación: CAPACIDAD, COMODIDAD Y POSIBILIDAD DE AMPLIACIÓN. Conserva esta identificación aunque otro catálogo antiguo asigne el número 45 a una operación inmobiliaria. No hagas el capítulo de financiación, contratos, licencias o apertura del estadio.
+
+El resultado es un vídeo de PREGUNTA. La recomendación queda documentada para una futura resolución, pero no se revela en este MP4.
+
+1. RESULTADO Y PRIORIDADES
+
+Composición: NouMestalla45AforoDecision.
+MP4 final: Nou_Mestalla_45_Aforo_Decision_59s.mp4.
+Formato: 1080 × 1920, 9:16, 60 fps, 59 s, 3540 fotogramas.
+Idioma: español de España.
+Marca: Alberto Villa; burdeos y arena; tono cercano, humor visual y precisión.
+Sin narración, voz sintética ni clonación de voz. No generar subtítulos de una voz inexistente.
+Efectos y ambiente opcionales, discretos y separables. Toda la historia debe entenderse sin sonido.
+No producir ahora el vídeo de respuestas, ni otros episodios.
+
+Objetivo visual: entrar en una grada reconocible del Nou Mestalla desde el primer fotograma y experimentar una decisión de diseño desde el punto de vista del aficionado. La arquitectura, las butacas y el grupo de amigos deben atraer antes de que aparezca una explicación.
+
+Objetivo de aprendizaje: elegir qué capacidad y servicios desarrollar ahora, y qué posibilidad real de adaptación conservar, considerando demanda, inversión, experiencia y obras futuras.
+
+Prioridad: historia entendible → identidad arquitectónica → geometría y personajes creíbles → movimiento continuo con pausas → lectura → detalle.
+No compensar un estadio genérico, unos personajes rígidos o una transición confusa con más partículas, velocidad, filtros, bitrate o resolución.
+Una skill orienta el trabajo; no suministra automáticamente modelos, GPU, permisos, calidad fotográfica ni licencias de uso.
+
+2. ARRANQUE DEL PROYECTO Y ENTORNO
+
+Si ya existe un proyecto Remotion:
+- Lee AGENTS.md, package.json, lockfile, composiciones, recursos y cambios sin confirmar.
+- Identifica las versiones que funcionan; conserva el gestor de paquetes existente.
+- Crea el episodio en un módulo propio y reutiliza componentes adecuados.
+- No reemplaces ni reformatees el proyecto completo.
+- No dependas de cambios sin guardar de otra tarea o de adjuntos ausentes de este checkout.
+
+Si el repositorio es nuevo:
+- Prepara un proyecto mínimo de Remotion con React y TypeScript.
+- Añade Three.js, @react-three/fiber y @remotion/three en versiones compatibles verificadas.
+- Mantén los paquetes @remotion/* alineados con la versión de remotion elegida.
+- Fija las dependencias en el lockfile. No copies versiones antiguas de un ejemplo ni instales todo como latest sin comprobar compatibilidad.
+- Prepara scripts claros para Studio, comprobación de tipos y render del episodio.
+- Comprueba Chromium, render de un fotograma 3D y exportación de un clip corto antes de elaborar el estadio completo.
+- Detecta si hay aceleración gráfica. No prometas GPU cuando solo exista render por software.
+- Si una capacidad no está disponible, documenta el límite y sigue con la alternativa compatible mejor resuelta.
+
+Estructura orientativa; adapta nombres a la aplicación real:
+public/referencias/nou-mestalla/
+public/assets/nou-mestalla/ep45/
+src/episodes/nou-mestalla/ep45/
+src/episodes/nou-mestalla/ep45/content.ts
+src/episodes/nou-mestalla/ep45/timing.ts
+src/episodes/nou-mestalla/ep45/layouts.ts
+src/episodes/nou-mestalla/ep45/NouMestalla45AforoDecision.tsx
+docs/nou-mestalla/ep45/
+out/nou-mestalla/ep45/
+.agents/skills/
+
+Guarda los originales de referencia separados de los assets preparados para render. No reorganices innecesariamente un repositorio que ya tiene convenciones.
+El MP4 de referencia puede adjuntarse directamente a la tarea; no exijas meter un vídeo pesado en Git. Conserva en el repositorio el código, los recursos redistribuibles y las instrucciones de recuperación del resto.
+
+3. REFERENCIAS QUE DEBES INSPECCIONAR
+
+A. 01_nou_mestalla_interior.jpg
+Render oficial reciente desde una grada, con césped, anillos, cubierta y butacas. Es la referencia más importante para el primer plano y la comparación.
+
+B. 02_nou_mestalla_aerea.jpg
+Vista aérea o perspectiva general del proyecto. Orienta forma del bowl, cubierta, niveles y fachada. No sustituirla por Bernabéu, Metropolitano o Mestalla antiguo.
+
+C. 03_nou_mestalla_estructura.jpg
+Fotografía real de las gradas y estructura en obras. Sirve para mantener coherencia entre el hormigón existente y el estudio de alternativas.
+
+D. 04_butaca_y_fila.jpg
+Detalle de butaca naranja, apoyo, respaldo y separación entre filas. Preferir una imagen identificada del propio proyecto. Si procede de otro estadio, usarla solo como referencia de materiales y ergonomía, nunca como especificación del Nou Mestalla.
+
+E. 05_servicios_grada.jpg
+Opcional: imagen de un espacio de restauración, circulación o estancia asociado al estadio. Ayuda a representar la opción C. No usar un salón de lujo genérico que cambie el caso a una discusión sobre palcos VIP.
+
+F. 06_video_base_53s.mp4
+El vídeo anterior que gustó parcialmente. Estudiar sus mecanismos de comentarios, rebobinado, móvil, ritmo e identidad. No copiar su montaje entero ni considerar una referencia el vídeo de respuestas que no gustó.
+Si solo dispones del nombre y no de los bytes, no afirmes haberlo visto.
+
+G. 07_marca_alberto.pdf o .png
+Referencia vigente de marca y tipografía. Si falta, aplicar el sistema provisional de este documento. Un archivo posterior del usuario tiene prioridad.
+
+H. 08_aficionados_referencia.png
+Opcional: ficha de cinco personajes ficticios adultos. No se necesitan fotos de personas reales ni de dirigentes.
+No es necesario el meme ni el setup de Ibai: este episodio pertenece a la serie del Nou Mestalla.
+
+fuentes_referencia.txt
+Registrar procedencia de cada recurso, fecha, autoría/licencia conocida y si sirve como referencia visual o como material incorporado al vídeo.
+
+Trabajar con imágenes originales de resolución suficiente, idealmente 1600–2000 px o más en su lado largo para planos amplios. No ampliar capturas borrosas de un PDF como si fueran fotografías de calidad.
+Un PDF recopilatorio es útil para orientarse; los JPG/PNG separados permiten trabajar mejor.
+No generar texto, logotipos ni datos precisos dentro de una imagen: mantenerlos como capas editables nítidas.
+
+Si faltan referencias:
+- Buscar primero en recursos disponibles y en las páginas oficiales citadas al final.
+- La ausencia de una foto sustituible no debe detener todo el trabajo.
+- Una imagen pública puede orientar una recreación sin que eso conceda permiso para redistribuirla como asset.
+- Para assets incorporados, usar material del usuario con autorización, recursos con licencia adecuada o creaciones propias.
+- No eliminar marcas de agua.
+- No iniciar servicios de pago, contratar modelos o abrir cuentas.
+- Si hay generación de imágenes, puede servir para fichas coherentes y fondos. No usar tres imágenes generadas por separado para fingir tres diseños comparables del mismo estadio: la geometría debe compartir una base.
+
+4. HECHOS REALES Y SIMULACIÓN
+
+Hecho contrastado al preparar este prompt:
+La web oficial del proyecto anuncia 70.044 asientos, una configuración de tres gradas para el aforo general y una mejora del espacio de las butacas respecto al Mestalla actual. La misma web sitúa el reinicio de las obras el 10 de enero de 2025.
+Fuente: https://noumestalla.valenciacf.com/proyecto
+
+Uso de ese hecho:
+- Orienta la identidad del recinto.
+- NO demuestra que mejorar comodidad obligue siempre a reducir el aforo total.
+- NO demuestra que el Valencia CF haya adoptado ninguna de nuestras tres alternativas.
+- NO permite deducir la viabilidad estructural o el coste de una ampliación real.
+- NO presentar el estadio como aún paralizado en la actualidad.
+- No hace falta introducir la cifra oficial ni las fechas en los 59 segundos: distraerían del dilema.
+
+La historia concreta es una SIMULACIÓN DE DISEÑO, inspirada en un proyecto real.
+El grupo, los mensajes, la demanda, los costes relativos, las reacciones y los esquemas A/B/C son ficticios.
+Se plantea un momento hipotético de definición del alcance ANTES DE FIJAR EL DISEÑO DEL SECTOR. No se atribuye una decisión pendiente a la dirección real del club.
+
+Etiqueta visible desde el primer plano:
+«SIMULACIÓN DE DISEÑO»
+Identificador secundario:
+«NOU MESTALLA · 45»
+
+Repite «Simulación de diseño» en el plano comparativo si es preciso y al cierre. Debe poder leerse; no esconderlo en letra microscópica.
+No presentar comentarios inventados como capturas reales, ni introducir noticias falsas con cabeceras de medios.
+No usar cifras como 75.000, 60.000 o 70.044 para denominar A/B/C. Son diseños ilustrativos, no anteproyectos reales con aforos calculados.
+
+La reducción de cinco a cuatro butacas del gancho explica un intercambio LOCAL en un tramo fijo. No es un cálculo de reducción del 20 % del estadio ni una reconstrucción de su evolución histórica.
+No extrapolar la capacidad de una fila al edificio entero.
+El hormigón existente limita el estudio: las variantes mantienen la estructura principal. No estires los forjados o cambies las pendientes para que una opción salga ganadora.
+
+5. DECISIÓN CANÓNICA
+
+Papel: coordinas el proyecto y debes proponer al comité qué diseño desarrollar y presupuestar. No apruebas por tu cuenta una modificación estructural real.
+
+Momento: revisión del diseño antes de cerrar el equipamiento y la distribución del sector.
+No inventar cuenta atrás, amenaza de apertura inmediata o fecha límite innecesaria.
+
+Objetivo común:
+Ofrecer entradas asequibles y una buena experiencia sin invertir hoy en capacidad que probablemente se utilice poco. Mantener una posibilidad de crecimiento si la demanda lo justifica.
+
+Supuestos del caso, explícitamente ficticios:
+- Una capacidad base cubre la demanda habitual estimada. En algunos partidos de máxima demanda puede faltar espacio.
+- La demanda adicional futura no está suficientemente confirmada como para tratarla como venta asegurada.
+- El equipo técnico ha estudiado una ampliación por un sector concreto dentro de este supuesto y la considera viable. Exige previsiones de diseño, inversión posterior y otra intervención.
+- Las alternativas cumplen las condiciones técnicas, de seguridad y accesibilidad necesarias dentro de la simulación. Eso no equivale a certificar un diseño real.
+- El presupuesto permite plantear las tres, con distintos compromisos. No se pide inventar un cálculo de rentabilidad.
+- Mejorar servicios puede aportar valor, pero no garantiza mayores ingresos por visitante ni obliga por sí mismo a encarecer cada entrada.
+- La demanda de servicios adicionales está por validar. No suponer que todos desean pagar más.
+
+Tres pruebas literales en el móvil, reveladas por separado:
+
+Mensaje 1 — «Marta · Afición»
+«La base cubre lo habitual. En los grandes partidos faltarían plazas.»
+Foco: demanda variable, no asistencia exacta ni promesa de lleno.
+
+Mensaje 2 — «Lucía · Arquitecta»
+«Ampliar es viable. Prepararlo y volver a construir cuesta.»
+Foco: adaptación posible en el supuesto, con dos costes.
+Adjunto visual: el sector reservable delineado sobre la misma maqueta. Nada de un plano técnico inventado con sellos de aprobación reales.
+
+Mensaje 3 — «Javi · Dirección»
+«Prioridad: entradas asequibles sin pagar ahora capacidad poco usada.»
+Foco: objetivo que permite valorar las alternativas.
+El interés por nuevos servicios se identifica como «Por validar» al mostrar C. Es una incertidumbre conocida, no una prueba nueva escondida para justificar después la solución.
+
+Pregunta:
+«¿Qué diseño aprobarías?»
+
+A — «Toda la capacidad ahora»
+Beneficio visible: más localidades disponibles desde el inicio para los grandes partidos.
+Coste visible: mayor inversión inicial; parte de la capacidad puede usarse poco habitualmente.
+No insinuar que operar una localidad vacía cuesta exactamente lo mismo que una ocupada. Separar inversión, mantenimiento y costes de apertura de sectores.
+No representar A como peligrosa, incómoda por definición ni ilegal.
+
+B — «Base con ampliación preparada»
+Beneficio visible: equipar la capacidad inicial necesaria y conservar una opción de crecimiento.
+Coste visible: pagar previsiones ahora; otra obra e inversión si se amplía.
+El sector aplazado se entrega terminado de forma segura, cerrado y protegido según el supuesto. No es una grada abandonada llena de huecos ni una obra activa al lado del público.
+La expansión ilustrada NO se consigue apretando las butacas de la base ni recortando accesibilidad.
+No prometer que se realizará sin cierres parciales, permisos, incertidumbre o costes.
+No afirmar que aplazar siempre abarata el coste de todo el ciclo de vida.
+
+C — «Menos plazas, más servicios»
+Beneficio visible: más espacio por usuario y una experiencia distinta, con zonas de servicio o estancia mejoradas.
+Coste visible: menor disponibilidad de entradas para grandes partidos; demanda de los servicios por validar.
+Representar cambios en áreas de equipamiento/distribución, manteniendo la estructura principal. Si el diseño elegido necesitase obras estructurales, revisarlo antes de animarlo.
+No convertir automáticamente todos los asientos en un palco caro, ni vender más ingresos como certeza.
+
+Las opciones son estrategias de alcance, no tres medidas totalmente incompatibles en el mundo real. Todas incluyen los servicios básicos. Se pregunta qué prioridad domina el diseño, no si se suprime el resto.
+
+Recomendación PARA LA FUTURA RESOLUCIÓN, OCULTA EN EL MP4:
+B resulta preferible bajo el objetivo y los supuestos visibles: cubrir demanda habitual, controlar inversión inicial y preservar adaptación técnicamente estudiada.
+No es una respuesta universal. A podría ganar con demanda sostenida, eventos contratados y financiación que justifiquen equipar toda la capacidad. C podría ganar con un objetivo de experiencia diferente y demanda validada para esa oferta.
+B pierde atractivo si preparar y ampliar después cuesta demasiado, si la ampliación no resulta viable o si las interrupciones futuras son inaceptables.
+No añadir una consecuencia desastrosa inevitable a A o C solo para premiar B.
+Guardar este razonamiento en docs/nou-mestalla/ep45/resolucion-interna.md. No incluirlo en los textos visibles, miniatura, nombre de salida, colores, checks o reacción final.
+
+6. GANCHO: PRIMER FOTOGRAMA Y PRIMEROS SEGUNDOS
+
+Gancho principal:
+«Más espacio. ¿Quién se queda fuera?»
+
+Plano:
+Vista a altura de ojos desde el extremo de una fila, con la butaca naranja cerca, el terreno de juego al fondo y la cubierta del Nou Mestalla reconocible. Cinco amigos adultos ficticios están junto a un tramo de cinco asientos dentro de una VISUALIZACIÓN DE DISEÑO. No son abonados con entradas vendidas ni espectadores a los que el club expulsa.
+
+Acción:
+Una pasada visual del rediseño sustituye cinco butacas normales por cuatro más amplias en EL MISMO TRAMO. El soporte de hormigón y sus extremos permanecen fijos.
+Las personas aún están de pie durante el cambio; ninguna cae ni atraviesa un asiento. Cuatro se sientan y la quinta mira el hueco, mira al grupo y levanta una ceja. La cámara deja ver el intercambio.
+El humor está en el hueco y la mirada, no en ridiculizar cuerpos, edad o discapacidad.
+No acompañar la transformación de una catástrofe, crujidos de estructura o asientos que explotan.
+
+Ejecución:
+- Frame 0: estadio, fila y personajes ya visibles. No negro, logo o texto sobre fondo vacío.
+- Primer segundo: el objeto protagonista es la fila, no una interfaz diminuta.
+- Cambio de distribución claro, corto y controlado.
+- Último segundo del gancho: composición quieta para entender la mirada y leer.
+- Si el movimiento de cinco personajes resulta artificial, usa poses de calidad y un gesto pequeño bien resuelto. No sustituirlos por cilindros y esferas como entrega final.
+- Si hace falta simplificar, encuadra al amigo que se queda de pie y dos compañeros cercanos; conserva evidencia visual del grupo de cinco y las cuatro plazas. No falsees los conteos.
+- No generar movimiento de cámara imposible desde una única fotografía plana.
+
+Dos alternativas de respaldo para probar internamente, no tres vídeos completos:
+G2. Desde el hombro del aficionado, aparece la vista del campo entre dos butacas muy próximas; el diseño se abre y el plano revela que se pierden plazas en el tramo. Frase: «Tu asiento mejora. Hay menos entradas».
+G3. Mismo bowl desde el césped: un barrido sustituye un sector de asientos por un espacio de servicios, mientras una pequeña cola de avatares permanece sin asignar. Frase: «El estadio mejora. ¿Para cuánta gente?».
+Prioriza G1 por el coste humano inmediato y el remate cómico. Cambia a G2 solo si el ensayo muestra que G1 no se entiende sin voz. G3 queda como reserva si no se pueden lograr personajes cercanos creíbles.
+
+7. CRÍTICAS Y HUMOR
+
+Después del gancho, su último encuadre se convierte en un clip dentro de una interfaz social móvil ficticia. Conservar la imagen y el tiempo exactos durante el relevo.
+No introducir una reseña real ni el rostro de un periodista.
+Los comentarios se superponen con cierta profundidad, pero no giran mientras hay que leerlos.
+
+Dos comentarios protagonistas:
+@ButacaEnParo — «Mi asiento está en el banquillo».
+@CunadoDelCAD — «El hormigón no tiene Ctrl+Z».
+
+Ambos se leen por turnos, con alrededor de dos segundos completos de estabilidad cada uno. La animación de entrada no cuenta como tiempo de lectura.
+
+Banco de comentarios secundarios ficticios, usar solo 6–8 en la acumulación visible; el resto son alternativas:
+@PepeSinFila — «El quinto se queda de entrenador».
+@ExcelDeGrada — «La celda estaba ocupada».
+@RenderConBufanda — «En el render cabíamos todos».
+@AbonoConRuedas — «Mi sitio sigue en fase beta».
+@GradaDeGuardia — «Falta una silla y sobra confianza».
+@PalcoDePlastico — «Con reposabrazos, sin primo».
+@TornilloDelFondo — «Ese cambio no era solo pintura».
+@VARDelPlano — «Revisando posible fuera de asiento».
+@DonAforo — «El hueco también paga abono?».
+@MestallaEnPracticas — «Mi colega viene en la ampliación».
+@FilaCeroEuros — «Tengo plaza en el documento».
+@JoseElDelCroquis — «La silla estaba en otra capa».
+@BanquilloPremium — «Suplente hasta en la grada».
+@PaquitoElDelExcel — «He filtrado al quinto».
+@Asiento404 — «Localidad no encontrada».
+@ArquitectoDeSofa — «Yo llevaba una plegable».
+
+Son personajes escritos para la ficción. No etiquetar cuentas reales ni enviar mensajes. No imitar perfiles de aficionados concretos.
+La broma de la plegable pertenece al comentario; nunca presentarla como solución ni animar a ocupar pasillos.
+No usar críticas que acusen a personas reales de fraude, negligencia o corrupción.
+La acumulación debe comunicar reacción, no imponer 18 lecturas en cinco segundos.
+
+8. STORYBOARD CANÓNICO · 59 SEGUNDOS
+
+Convención: intervalos [inicio, fin), sin solapamientos de duración total. El frame final es 3539. Las transiciones se ejecutan dentro de estos intervalos. No sumar segundos adicionales por cada fundido.
+
+ESCENA 01 · 00,0–04,5 s · frames [0,270)
+PROPÓSITO: sentir el intercambio entre espacio y plazas.
+IMAGEN: gancho G1, fila del Nou Mestalla y grupo de amigos.
+TEXTO: «Más espacio. ¿Quién se queda fuera?»; identificadores de serie y simulación.
+MOVIMIENTO: cambio de versión del tramo, reacción pequeña; asentamiento final.
+LECTURA: texto completo como máximo desde 01,2 s; mantener hasta salir.
+SALIDA: el encuadre final se conserva como clip social.
+
+ESCENA 02 · 04,5–09,5 s · frames [270,570)
+PROPÓSITO: humor y coste percibido por el público.
+IMAGEN: clip dentro del móvil + dos comentarios y acumulación.
+TEXTO: solo los dos comentarios protagonistas en lectura secuencial.
+MOVIMIENTO: 04,5–04,8 entrada y relevo; 04,8–06,8 primer comentario quieto; 06,8–07,1 relevo; 07,1–09,1 segundo quieto; 09,1–09,5 acumulación.
+SALIDA: la acumulación empieza a retirarse en orden inverso.
+
+ESCENA 03 · 09,5–12,0 s · frames [570,720)
+PROPÓSITO: regresar al momento de decidir.
+IMAGEN: deshacer comentarios, volver al clip, invertir el rediseño de cuatro a cinco plazas.
+TEXTO: «ANTES DE CERRAR EL DISEÑO».
+MOVIMIENTO: rebobinado real de estados ya vistos. No basta con una flecha de rewind encima de una escena nueva.
+El deshacer literal termina en el tramo original; después se conecta con la maqueta de diseño.
+No retroceder a una fecha histórica inventada.
+
+ESCENA 04 · 12,0–15,5 s · frames [720,930)
+PROPÓSITO: dar el mando al espectador.
+IMAGEN: la fila se reconoce en un sector de la maqueta sobre una mesa de proyecto, respetando su geometría.
+TEXTO PRINCIPAL: «Ahora diriges tú el Nou Mestalla».
+FIRMA: «Aprendiendo gestión de proyectos con ejemplos reales».
+MOVIMIENTO: elevación y cambio de escala controlado, con corte coincidente si el morph no queda limpio.
+LECTURA: rótulos quietos desde 12,5 s. La firma aparece una sola vez, pequeña pero legible.
+No introducir presentador ni setup de Ibai.
+
+ESCENA 05 · 15,5–20,0 s · frames [930,1200)
+PROPÓSITO: demostrar demanda desigual.
+IMAGEN: móvil frontal con conversación de «Marta · Afición».
+TEXTO: «La base cubre lo habitual. En los grandes partidos faltarían plazas.»
+MOVIMIENTO: entrada del móvil y mensaje resueltas en 0,35 s; después lectura.
+Apoyo quieto: pequeño sector con ocupación ilustrativa, sin porcentajes ficticios.
+No pedir leer un gráfico y un párrafo simultáneamente.
+
+ESCENA 06 · 20,0–24,5 s · frames [1200,1470)
+PROPÓSITO: hacer posible y costosa la adaptación.
+IMAGEN: mismo móvil, grupo «Proyecto · diseño», mensaje de «Lucía · Arquitecta».
+TEXTO: «Ampliar es viable. Prepararlo y volver a construir cuesta.»
+APOYO: miniatura del sector que podría equiparse después.
+MOVIMIENTO: solo el nuevo mensaje entra. El marco no vuelve a girar ni aparecer desde cero.
+Mantener visibles las palabras «otra obra» en una anotación del adjunto si hace falta aclarar el coste.
+
+ESCENA 07 · 24,5–29,0 s · frames [1470,1740)
+PROPÓSITO: fijar el objetivo y abrir la elección.
+IMAGEN: mensaje de «Javi · Dirección», luego la miniatura de la grada crece hacia la comparación.
+TEXTO: «Prioridad: entradas asequibles sin pagar ahora capacidad poco usada.»
+LECTURA: completa y quieta hasta 28,5 s; el relevo ocupa el último medio segundo.
+No convertir el requisito en un resultado garantizado de B.
+
+ESCENA 08 · 29,0–35,0 s · frames [1740,2100)
+PROPÓSITO: visualizar A.
+TÍTULO: «A · Toda la capacidad ahora».
+SUBTÍTULO: «Más plazas hoy · Más inversión inicial».
+IMAGEN: estado base → todos los módulos previstos se equipan con butacas.
+CONTRAPARTIDA: en una representación de un partido habitual, un sector sigue parcialmente vacío. Es ilustrativo, sin ratio ni previsión exacta.
+MOVIMIENTO: transformación 29,0–30,4; estado asentado 30,4–34,7; salida breve.
+CÁMARA: misma ubicación, orientación y óptica que en B y C.
+
+ESCENA 09 · 35,0–41,0 s · frames [2100,2460)
+PROPÓSITO: visualizar B.
+TÍTULO: «B · Base con ampliación preparada».
+SUBTÍTULO: «Menos inversión hoy · Otra obra después».
+IMAGEN: volver al MISMO ESTADO BASE; equipar el sector inicial y delimitar el sector futuro con representación traslúcida rotulada «FUTURO POSIBLE».
+CONTRAPARTIDA: una pequeña secuencia muestra futuras vallas de obra y montaje de equipamiento; nunca público dentro de la zona vallada.
+Dejar claro que las previsiones también cuestan ahora. Rótulo breve de apoyo: «Preparación incluida».
+No fingir ampliación instantánea en un estadio ocupado.
+MOVIMIENTO: misma duración que A; pausa de lectura equivalente.
+
+ESCENA 10 · 41,0–47,0 s · frames [2460,2820)
+PROPÓSITO: visualizar C.
+TÍTULO: «C · Menos plazas, más servicios».
+SUBTÍTULO: «Más espacio por visita · Menos entradas».
+IMAGEN: restablecer el estado base; redistribuir equipamiento en el sector para plazas más espaciosas y servicios de apoyo.
+CONTRAPARTIDA: menos localidades disponibles para el grupo del gancho. No inventar precios.
+ETIQUETA SECUNDARIA: «Demanda de servicios: por validar».
+MOVIMIENTO: ritmo equivalente a A y B; mismo tratamiento de luz, atractivo y detalle.
+C no puede verse más bella por un filtro dorado ni A parecer deliberadamente pobre.
+
+ESCENA 11 · 47,0–56,0 s · frames [2820,3360)
+PROPÓSITO: comparar y decidir.
+IMAGEN: estadio de fondo suavizado; tres filas de elección apiladas verticalmente. No tres viñetas minúsculas en horizontal.
+PREGUNTA: «¿Qué diseño aprobarías?».
+FILA A: «Toda la capacidad ahora» / «Más inversión inicial».
+FILA B: «Base con ampliación» / «Preparación + otra obra».
+FILA C: «Menos plazas, más servicios» / «Menos entradas».
+RESUMEN DEL CASO, breve y quieto: «Demanda incierta · Entradas asequibles».
+De 47,0 a 48,0 se asientan las filas; de 48,0 a 56,0 permanecen legibles.
+Puede conservarse una miniatura de cada variante junto a su fila si no resta tamaño al texto.
+Sin check, verde ganador, vibración sobre B, reacción de aprobación o orden de cámara que delate la recomendación.
+
+ESCENA 12 · 56,0–59,0 s · frames [3360,3540)
+PROPÓSITO: participación y marca.
+TEXTO: «A, B o C. ¿Qué sacrificarías?».
+FIRMA: «Alberto Villa».
+PIE: «Proyecto real · Simulación de diseño».
+Las opciones se mantienen si caben; no reemplazarlas por una pantalla vacía cuando el espectador aún decide.
+Cierre limpio; sin enlace a un simulador, venta, premio musculoso o explicación de la respuesta.
+
+9. DIRECCIÓN 3D: MAQUETA COMPARTIDA Y ESTADIO RECONOCIBLE
+
+A. Estrategia de producción
+Construir un bowl reconocible con el detalle necesario para cámara, y un sector de grada cercano de alta calidad.
+No necesitas modelar 70.044 butacas individualmente con geometría pesada.
+Para A/B/C, preferir un modelo paramétrico común en Three.js/R3F.
+Un fondo de referencia o una composición 2.5D puede apoyar planos lejanos, pero no sustituye la geometría que se transforma.
+No llamar 3D a una imagen estática con zoom. Explicar honestamente las técnicas usadas.
+
+B. Anclas invariantes
+Mismo soporte de hormigón, extremos del tramo, pendientes, límites del sector, cota de cámara y puntos de referencia.
+Usar una barandilla, un pilar o una junta de hormigón como ancla permanente.
+La cubierta, el campo y la fachada no cambian con cada alternativa.
+No comparar tres estadios generados independientes.
+
+C. Dos niveles de representación
+1. Tramo del gancho: cinco o cuatro butacas, un ejemplo local y explícitamente ilustrativo.
+2. Sector A/B/C: módulos de equipamiento para explicar inversión, servicios y posibilidad de ampliación.
+No suponer que abrir más espacio horizontal entre sillas permite aumentar distancia entre filas sobre el mismo forjado.
+Separar ancho de butaca, separación lateral y profundidad de fila. No estirar los tres parámetros a la vez.
+No representar ingeniería estructural con cotas inventadas; no se entrega un plano apto para construir.
+
+D. Diseño paramétrico
+Separar datos de layout, geometría, material, poses, cámara y tiempo.
+Definir identificadores estables de asiento y módulo.
+Mantener el hormigón inmóvil; cambiar solo los elementos que el supuesto permite modificar.
+Cuando disminuye el número de butacas, retirar las sobrantes con un barrido de versión o desmontaje ilustrativo, y redistribuir las restantes.
+No hacer que una silla pase a través de otra, ni que personas sentadas se fundan con ellas.
+Para B, definir por separado base, reservas/previsiones y estado futuro posible.
+Calcular conteos desde los mismos datos que generan la escena; si aparece un número en pantalla debe coincidir.
+
+E. Cámara
+Trayectorias con origen, destino y motivo.
+Óptica moderada; no gran angular extremo que deforme caras o proporciones.
+Comprobar horizonte, cerca/lejos del frustum y colisiones con barandillas y público.
+Detener la cámara para leer datos.
+La comparación A/B/C conserva cámara y luz.
+Los acercamientos al asiento deben permitir ver campo y contexto. No llenar todo el frame con plástico naranja.
+
+F. Materiales y luz
+Hormigón con rugosidad y variación moderada, sin grietas que inventen un defecto real.
+Butacas de plástico con espesor, respaldo y apoyo creíbles; no bloques naranjas.
+Metal en barandillas con reflejo contenido. Textiles con sombreado coherente.
+Luz diurna consistente, sombras de apoyo y ambiente suave.
+Gestionar color y exposición; evitar doble corrección de gamma y blancos quemados.
+No cubrir el trabajo con bloom, niebla o profundidad de campo excesiva.
+El burdeos/arena pertenece a la capa editorial; el estadio conserva su identidad naranja, negra y gris.
+
+G. Personajes
+Cinco identidades ficticias estables; ropa y proporciones constantes.
+Ficha por personaje: rasgos, ropa, escala, posición y pose.
+Animaciones pequeñas: mirar hueco, mirar compañero, ceja, gesto de hombros, sentarse de forma creíble.
+Nada de sincronización mecánica de toda la grada.
+Evitar manos cercanas si no quedan bien; un gesto de cabeza o composición puede comunicar lo mismo.
+No usar muñecos low-poly genéricos como resultado definitivo cuando el plano pretende realismo.
+Si usas modelos licenciados, revisar escala, esqueletos, materiales y permisos. Las skills de carga no aportan los modelos.
+
+H. Rendimiento
+Instancias para butacas y elementos repetidos, materiales y geometrías compartidos.
+Detalle alto cerca; mallas más simples o capas bien resueltas lejos.
+No lanzar miles de sombras dinámicas independientes.
+Medir consumo y tiempos; no subir concurrencia hasta agotar memoria.
+Liberar recursos al cambiar escenas cuando corresponda sin destruir los compartidos prematuramente.
+No instalar un motor de física, WebGPU, Unreal o un servicio de render de pago por defecto.
+
+10. MOTION, REBOBINADO Y MÓVIL
+
+Continuidades principales:
+T1. Fila → clip social: mismo encuadre, misma imagen y mismo frame fuente.
+T2. Comentarios → rebobinado: deshacer primero las entradas y luego el cambio de distribución.
+T3. Fila → maqueta: conservar un ancla y escala coherente; permitir corte coincidente si el morph complica la lectura.
+T4. Maqueta → adjunto del móvil: reutilizar cámara y asset, sin otra grada.
+T5. Móvil → comparativa: expandir el adjunto y retirar el marco con una única máscara.
+T6. Alternativas → resumen: reutilizar miniaturas del estado final correspondiente, no crear escenas nuevas.
+
+Para cada transición, documentar objeto, caja origen/destino, ancla, frame inicial/final, máscara, curva y pausa.
+El elemento debe tener un único marco; nada de dos teléfonos superpuestos durante el relevo.
+No reordenar párrafos mientras cambia el ancho de la burbuja.
+Conservar avatar, contacto, mensaje, maqueta y horas entre miniatura y ampliación.
+A/B/C son tarjetas editoriales, no botones nativos inventados de WhatsApp.
+
+Móvil:
+- Proporciones de teléfono actual, pantalla recortada, cabecera, avatar, mensajes y zona de entrada.
+- Contactos con nombre y función. Si se usa un grupo, mantener el grupo «Proyecto · diseño» y el remitente de cada burbuja.
+- No tres conversaciones abiertas a la vez.
+- Tipografía frontal y grande; zoom antes de la lectura, no durante.
+- Mensajes propios y ficticios. No conectar con WhatsApp, enviar mensajes ni acceder a cuentas.
+
+Determinismo:
+- Todo estado se calcula desde frame, fps, props y datos.
+- No Date.now(), Math.random() sin semilla, setTimeout, animación CSS autónoma o progreso acumulado.
+- No requestAnimationFrame como reloj narrativo independiente.
+- En 3D, no sumar mixer.update(delta) según tiempo real: evaluar el clip en el tiempo exacto requerido y controlar acciones/estado para que saltar entre frames sea reproducible.
+- Un rewind usa la misma función de escena con un tiempo que retrocede. No confiar en playbackRate negativo de un vídeo.
+- Para un clip externo que deba retroceder, preparar una versión inversa compatible o una secuencia de frames tras comprobar herramientas y derechos.
+- Restablecer transformaciones/estado de Canvas y evitar contaminación entre escenas.
+
+Vocabulario de movimiento:
+Entradas cortas con frenado, cámara con aceleración y parada suaves, cambios de versión mediante barrido o máscaras.
+Reservar un sobrepaso pequeño para algún comentario cómico; nada de rebotes en hormigón o cámaras.
+No imponer la misma curva a personaje, asiento, tarjeta y cámara.
+Blur solo si ayuda al movimiento; textos quietos nítidos.
+60 fps ofrece más muestras, pero no corrige malas trayectorias.
+
+11. MARCA Y LEGIBILIDAD
+
+Usar los archivos actuales de Alberto si están disponibles. No recuperar Libre Baskerville.
+Sistema provisional si faltan:
+Burdeos #682438; arena #E9DDC8; tinta #211C1D; blanco cálido #F8F4EC.
+Títulos con una serif editorial legible —por ejemplo, Bodoni Moda en peso adecuado— y mensajes/opciones con una sans clara, por ejemplo Inter.
+Verificar fuente, licencia, carga local y acentos. No descargar fuentes durante cada frame.
+No forzar esta propuesta si la marca del usuario aporta otra tipografía vigente.
+
+Composición vertical:
+Área principal orientativa: x=90–930; y=180–1580.
+Reserva margen adicional a la derecha y abajo para controles y descripción de plataformas. No presentarlo como una zona segura universal.
+Títulos: aproximadamente 68–86 px.
+Mensajes y opciones: aproximadamente 48–58 px.
+Texto secundario relevante: aproximadamente 38–44 px.
+Ajustar con la prueba a 360 × 640. No reducir texto esencial a miniatura para que todo quepa.
+Máximo dos líneas por mensaje cuando sea posible, tres solo con pausa suficiente.
+
+No sobrecargar el mismo plano con contador, mensajes, comentario, subtítulos y un gráfico.
+Mantener una sola novedad dominante por revelación.
+Contar la lectura a partir del texto completo, quieto y contrastado.
+Si el guion no cabe, eliminar adornos y comentarios secundarios antes de acelerar la lectura.
+Si tras simplificar aún no se entiende, documentar el ajuste de duración propuesto; no recortar información necesaria de forma silenciosa.
+
+12. SKILLS: QUÉ APLICAR Y QUÉ INSTALAR
+
+Primero comprobar las skills realmente accesibles en ESTE entorno. La disponibilidad en el chat que redactó el prompt no significa que estén instaladas en tu tarea.
+No presentar una lista como evidencia de aplicación.
+
+Skills personales utilizadas para preparar este encargo, reutilizables si existen en el entorno:
+- buscar-skills: buscar solo capacidades que falten.
+- viral-hooks: comparar aperturas y comprobar claridad inmediata.
+- scenario-generation: definir objetivo, pruebas, costes y recomendación condicionada.
+- storyboard: tiempos, textos, estados y pausas.
+- motion-editorial: jerarquía, continuidad, marca y evaluación del vídeo.
+- motion-interfaces: relevos entre fila, clip, móvil y comparativa.
+- motion-movil-agenda: mensajes reconocibles, remitentes y comprensión sin audio.
+- remotion-best-practices: localizar las guías oficiales necesarias; usar creación, markup y render cuando corresponda.
+
+Si una skill personal falta, las instrucciones de este documento permiten continuar. No instalar un paquete con un nombre parecido solo para completar la lista.
+El usuario pide expresamente el MP4: una recomendación general de mostrar solo Studio no sustituye el render final solicitado aquí.
+
+Candidatas externas para revisar e instalar si aportan la capacidad necesaria:
+
+1. threejs-geometry · CloudAI-X/threejs-skills
+Fuente:
+https://github.com/CloudAI-X/threejs-skills/blob/main/skills/threejs-geometry/SKILL.md
+Aporta: geometrías compartidas, formas, buffers e instancias.
+Uso concreto: fila paramétrica, módulos de grada, variación de butacas sin deformar el soporte.
+Prioridad alta para este episodio.
+Adaptación: ignorar bucles autónomos y ejemplos de motor en tiempo real; derivar cambios del frame de Remotion.
+
+2. threejs-performance · CloudAI-X/threejs-skills
+Fuente:
+https://github.com/CloudAI-X/threejs-skills/blob/main/skills/threejs-performance/SKILL.md
+Aporta: medición, reducción de draw calls, instancias y gestión del detalle.
+Uso concreto: repetir filas y asientos sin agotar memoria.
+Prioridad alta si la escena 3D lo requiere.
+No bajar la resolución final como primera solución; no copiar azar sin semilla ni inicializar otro renderer fuera de la integración.
+
+3. threejs-materials-lighting · gamedev-skills/awesome-gamedev-agent-skills
+Fuente:
+https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/main/skills/web-engines/threejs-materials-lighting/SKILL.md
+Aporta: materiales PBR, iluminación, sombras y ambiente.
+Uso concreto: plástico naranja, hormigón, metal, textiles y sombras de contacto.
+Prioridad alta.
+Sus ejemplos apuntan a versiones concretas de Three.js; verificar la instalada. No actualizar el proyecto entero por seguir un ejemplo.
+
+4. threejs-gltf-loading · mismo repositorio que 3
+Fuente:
+https://github.com/gamedev-skills/awesome-gamedev-agent-skills/blob/main/skills/web-engines/threejs-gltf-loading/SKILL.md
+Aporta: carga GLB/glTF, jerarquías, materiales y clips.
+Uso concreto: integrar modelos de butaca o personajes si hay recursos compatibles.
+Condicional: no es necesaria si no se cargan modelos externos.
+No aporta un estadio real ni licencia para utilizar cualquier modelo.
+
+5. threejs-animation · CloudAI-X/threejs-skills
+Fuente:
+https://github.com/CloudAI-X/threejs-skills/blob/main/skills/threejs-animation/SKILL.md
+Aporta: clips, esqueletos, poses y mezcla de animaciones.
+Uso concreto: sentarse, mirar hueco, mirar al compañero.
+Condicional a modelos animados; evitar instalar si unas poses controladas bastan.
+Adaptar reloj y evaluación al frame; no copiar temporizadores o acumulación temporal.
+
+6. smooth-motion-choreography · Paldom/storytelling-animation
+Repositorio:
+https://github.com/Paldom/storytelling-animation
+Ruta candidata: skills/smooth-motion-choreography/SKILL.md
+Uso propuesto: entradas, paradas, continuidad, ritmo y transiciones.
+Localizada en el catálogo del repositorio; el archivo específico no se recuperó durante esta preparación. Verificar ruta y contenido completos antes de instalar. No está auditada por este documento.
+Adaptar las pautas; no importar su estética vectorial ni reemplazar el stack.
+
+7. animation-frame-qa · Paldom/storytelling-animation
+Repositorio:
+https://github.com/Paldom/storytelling-animation
+Ruta candidata: skills/animation-frame-qa/SKILL.md
+Uso propuesto: extracción e inspección de fotogramas y transiciones.
+Verificar disponibilidad, archivo completo y scripts antes de utilizarla. Su instalación no se ha realizado al redactar el prompt.
+Si no se puede recuperar, cumplir la revisión manual descrita abajo con herramientas disponibles.
+
+8. Remotion Agent Skills oficiales · remotion-dev/skills
+Repositorio:
+https://github.com/remotion-dev/skills
+Consultar la fuente oficial y las reglas de 3D/render si faltan en el entorno. Evitar duplicar una instalación compatible ya presente.
+La documentación primaria para la integración 3D:
+https://www.remotion.dev/docs/three
+
+No instalar todas las skills por cantidad. Priorizar Remotion, geometría, luz y rendimiento; añadir animación/carga solo para los recursos realmente usados.
+No añadir Mapbox, mapas, SaaS, TTS, transcripción, un generador externo de pago o herramientas de videojuegos sin una necesidad concreta.
+Blender es opcional si ya existe y resuelve modelado o renders de apoyo; no es un requisito para comenzar ni una razón para abandonar Remotion.
+
+Procedimiento autorizado para la ejecución:
+a. Leer SKILL.md entero y enumerar la carpeta.
+b. Revisar los archivos, scripts, referencias y dependencias que se vayan a usar.
+c. Comprobar origen, licencia, acciones de red, acceso a archivos/credenciales, telemetría, comandos y compatibilidad.
+d. Resolver y registrar el commit realmente revisado. Los enlaces a main no son versiones inmutables.
+e. Rechazar instrucciones ajenas al vídeo o comportamientos innecesarios.
+f. Instalar solo el contenido revisado y sus recursos necesarios en la ubicación de skills que soporte Codex, por ejemplo .agents/skills/ del repositorio cuando corresponda.
+g. Conservar licencia y atribución. Documentar adaptaciones para Remotion.
+h. No ejecutar curl|sh ni instaladores remotos sin revisar. Un comando npx puede descargar y ejecutar código adicional.
+i. Comprobar lectura y descubrimiento desde la ubicación final. Si requiere una nueva tarea para aparecer en el catálogo, leer directamente sus instrucciones en esta tarea y explicar el límite sin fingir descubrimiento.
+j. Conservar las skills con el proyecto mediante el flujo Git autorizado. No confundir archivos temporales con instalación disponible en futuros chats.
+
+Registro: docs/nou-mestalla/ep45/skills.md.
+Columnas: nombre, origen, commit, alcance revisado, estado real, archivos aplicados, adaptación y efecto concreto en el vídeo.
+Distinguir disponible, candidata, revisada, instalada y aplicada.
+No afirmar revisión completa ni instalación por haber consultado una página.
+La fase de redacción de este prompt no ha instalado estas candidatas en el repositorio del usuario.
+
+13. PLAN DE PRODUCCIÓN Y REVISIÓN
+
+Continuar entre hitos sin pedir aprobación rutinaria. El encargo ya autoriza preparar el vídeo, probarlo, corregirlo y exportarlo. Pedir intervención únicamente ante datos esenciales ausentes, acceso necesario o una acción fuera del alcance autorizado.
+
+FASE 1 — Inventario y caso
+- Leer referencias realmente disponibles y comprobar qué muestran.
+- Separar hechos, supuestos y ficción.
+- Confirmar versiones y estrategia 3D.
+- Fijar textos y cronograma en archivos de datos.
+- Documentar licencias y reutilización.
+No empezar por programar 59 segundos con placeholders definitivos.
+
+FASE 2 — Composición estática
+- Crear un frame del gancho a resolución final.
+- Crear frames equivalentes de A/B/C con la misma cámara.
+- Probar el móvil y el resumen a 360 × 640.
+- Corregir estadio genérico, perspectiva, anatomía, conteos y letras antes de animar.
+Una captura estática bonita no prueba fluidez, pero detecta errores antes de un render largo.
+
+FASE 3 — Clips críticos
+- Gancho 0–4,5 s.
+- Comentarios + rebobinado + paso a maqueta.
+- Ciclo A/B/C con restauración del estado base.
+Renderizar y ver estos clips; corregir causas de fallos.
+No pedir al usuario que detecte todos los defectos evitables.
+
+FASE 4 — Integración
+- Añadir móvil, datos y cierre.
+- Comprobar que todos los assets se cargan antes de capturar.
+- Consultar mecanismos de carga y render vigentes de Remotion para ThreeCanvas, texturas, fuentes y modelos.
+- Usar archivos locales para los recursos de render; no depender de URLs externas por fotograma.
+
+FASE 5 — Verificación técnica
+- Comprobación de tipos y construcción/configuración del proyecto.
+- Render de frames no consecutivos y repetidos, por ejemplo 60, 1380, 3000, 60, 1380.
+- Comparar que los mismos frames reproducen el mismo estado; investigar diferencias.
+- Verificar conteos cinco/cuatro, invariantes de la geometría, correspondencia de miniaturas y estados.
+- Comprobar que no hay assets ausentes, errores de consola materiales, frames negros, NaN, transparencias inesperadas o texto desbordado.
+No escribir pruebas que simplemente repitan constantes; centrar comprobaciones en invariantes y fallos reales.
+
+FASE 6 — MP4 final
+- Exportar 1080 × 1920, 60 fps, 3540 frames, codec compatible con el destino, normalmente H.264.
+- Confirmar perfil de color/píxel compatible, como yuv420p cuando proceda.
+- Verificar dimensiones, fps y duración con herramienta de metadatos.
+- Examinar el MP4 decodificado, no solo la previsualización de Studio.
+- Conservar una versión sin voz; si hay efectos, separarlos del guion de voz futura.
+No generar archivos extra de audio o versiones duplicadas si no aportan utilidad.
+
+FASE 7 — Revisión perceptiva
+Primera pasada sin sonido a tamaño de móvil:
+¿Se reconoce el estadio? ¿Se entiende lo que cambia? ¿Se leen las pruebas? ¿Se distinguen A/B/C? ¿Se entiende qué sacrificaría cada opción?
+
+Segunda pasada sobre el render final:
+Buscar saltos, dobles teléfonos, solapamientos, sillas atravesadas, caras cambiantes, pies flotando, sombras que saltan y geometría que se mueve sin motivo.
+Revisar reproducción normal y después ralentizar para diagnosticar.
+
+Inspección alrededor de uniones:
+Para cada límite de escena en los frames 270, 570, 720, 930, 1200, 1470, 1740, 2100, 2460, 2820 y 3360, mirar frames cercanos a ambos lados.
+Revisar además poses del gancho y puntos de cambio de máscaras dentro de las escenas.
+
+Registrar defectos en docs/nou-mestalla/ep45/qa.md:
+escena/frame → problema observado → corrección → comprobación realizada.
+No dar una puntuación alta sin evidencia ni afirmar que dos revisiones fueron satisfactorias si no se hicieron.
+Tras cada corrección importante, revisar el tramo afectado. Completar dos pasadas satisfactorias del MP4 final: una centrada en comprensión sin sonido a tamaño móvil y otra en continuidad visual. Si se modifica materialmente el vídeo después, repetir las comprobaciones afectadas y una reproducción completa.
+Si no dispones de reproducción o inspección de imágenes, explicar exactamente qué revisión queda pendiente. No presentar extracción automática de frames como evaluación visual.
+
+14. CRITERIOS DE ACEPTACIÓN
+
+El vídeo está terminado cuando:
+- El primer frame ya contiene una escena del estadio y el problema aparece en los primeros segundos.
+- Se entiende que es una simulación, sin atribuir decisiones o críticas falsas al club.
+- El hormigón se mantiene; cambian elementos de diseño plausibles.
+- Las personas conservan identidad y no atraviesan butacas.
+- Se cuentan cinco amigos y cuatro plazas en el remate, sin exigir leer un contador.
+- Se leen los dos comentarios principales.
+- El rebobinado invierte estados anteriores.
+- Los mensajes muestran demanda, viabilidad con coste y objetivo.
+- Cada alternativa parte de la misma base y usa el mismo tiempo/escala/iluminación.
+- B no parece una ampliación gratuita ni garantizada.
+- C no promete ingresos o precios que no se han demostrado.
+- A no se ridiculiza con una grada peligrosa o deliberadamente incómoda.
+- La recomendación no se revela.
+- A/B/C y la pregunta permanecen legibles al final.
+- Todo se entiende sin voz.
+- El MP4 final ha sido verificado técnicamente y revisado visualmente según las capacidades reales.
+- El proyecto queda editable, con dependencias y recursos identificados.
+
+No dar por terminado si el único resultado es un storyboard, un prototipo de cajas, una captura de Studio, un listado de skills o un render de prueba.
+
+15. ENTREGABLES
+
+1. Nou_Mestalla_45_Aforo_Decision_59s.mp4.
+2. Fuentes editables del episodio y recursos propios o redistribuibles.
+3. Instrucciones breves para abrir Studio y repetir el render con la versión realmente utilizada.
+4. Documentación concisa de fuentes/licencias, skills, storyboard y QA dentro de la carpeta del episodio.
+5. Resolución interna separada, para poder producir más adelante el vídeo de respuesta.
+6. Una hoja de contacto pequeña solo si ayuda a revisar y ha sido inspeccionada; no entregar cientos de PNG como sustituto del vídeo.
+
+No publicar el vídeo en redes, contratar servicios, enviar mensajes, fusionar cambios ni desplegar una web como parte de este encargo.
+Dejar los cambios guardados mediante el flujo del proyecto y explicar qué está conservado en Git y qué son archivos de salida; no confundir estado temporal de una tarea con disponibilidad en otra.
+
+Respuesta final breve:
+- Enlace al MP4.
+- Dónde están las fuentes.
+- Qué se verificó realmente.
+- Cualquier limitación concreta pendiente.
+No rellenar con promesas de viralidad o nombres de herramientas sin resultado.
+
+16. FUENTES Y ALCANCE DE ESTA PREPARACIÓN
+
+Base editorial:
+- Ficha 45 de Info.docx: «El estadio cambia de tamaño sobre el mismo hormigón».
+- Revisión posterior aceptada: comenzar desde el aficionado, mostrar el coste de perder plazas y tratar la ampliación como una intervención real.
+- Prompt del cuarto episodio de La Velada como referencia del nivel de detalle, separación pregunta/respuesta, motion, comentarios, revisión e instalación condicionada de skills.
+
+Hechos y referencias visuales:
+https://noumestalla.valenciacf.com/proyecto
+https://noumestalla.valenciacf.com/aforo-general?lang=es
+Usar estas páginas para localizar imágenes y comprobar su procedencia; no dar por resueltos los derechos de reutilización.
+
+Producción 3D:
+https://www.remotion.dev/docs/three
+https://github.com/remotion-dev/skills
+Fuentes de las candidatas: sección 12.
+
+Entorno Codex:
+https://learn.chatgpt.com/docs/environments/cloud-environments
+https://help.openai.com/en/articles/20001545-using-codex-cloud
+Al ejecutar, comprobar la interfaz y capacidades disponibles. Un entorno prepara herramientas; cada tarea tiene sus propios archivos. Las skills de otro chat y los cambios sin conservar no aparecen automáticamente.
+
+Este archivo es un prompt de producción y una especificación editorial. Durante su redacción no se ha implementado el vídeo, no se ha renderizado el MP4 y no se ha certificado la viabilidad de ninguna modificación real del estadio.
+

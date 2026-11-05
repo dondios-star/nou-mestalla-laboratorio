@@ -1,0 +1,696 @@
+PROMPT DE PRODUCCIÓN PARA CODEX
+NOU MESTALLA · EPISODIO 42
+EL ESTADIO ENVEJECE ANTES DE ESTRENARSE
+Serie de Alberto Villa · 5 de noviembre de 2026
+
+Lee este archivo entero. Ejecuta los apartados 1–15 para producir el episodio en el repositorio seleccionado. Los apéndices A y B son la guía de preparación del entorno y de referencias; no forman parte del vídeo.
+
+Quiero el MP4 final exportado y revisado, además de las fuentes editables. No me devuelvas otro prompt ni solo un plan. Resuelve las decisiones rutinarias de producción y continúa hasta completar el encargo. Si alguna capacidad falta, explica el bloqueo concreto y completa el trabajo independiente que siga siendo posible. No afirmes haber instalado, renderizado, visto o comprobado algo que no hayas hecho.
+
+1. ENCARGO, CONTINUIDAD Y PRIORIDADES
+
+Produce un vídeo de PREGUNTA, no su resolución:
+- Composición: NouMestalla42ReinicioDecision.
+- Formato: vertical 1080 × 1920.
+- Frecuencia: 60 fps reales de animación.
+- Duración: 59 segundos; 3540 fotogramas, índices 0–3539.
+- Archivo: Nou_Mestalla_42_Reinicio_Decision_59s.mp4.
+- Idioma: español de España, comprensible para público hispanohablante.
+- Sin narración. Debe entenderse sin sonido. Efectos y ambiente, si se usan, separados y moderados.
+- La respuesta se guarda para un futuro vídeo de consecuencias.
+
+Se trata de la ficha 42 del catálogo del usuario, «El estadio envejece antes de estrenarse». Mantén su conflicto: cómo revisar y aprovechar lo construido antes de reanudar. La ficha 41 trata de financiación y no se repite aquí. El episodio 42 tampoco es la respuesta del 41.
+
+Inspecciona primero el proyecto, sus instrucciones y los assets. Si existe un modelo del Nou Mestalla o una composición del 41, reutiliza geometría, materiales y marca que sirvan, preservando el trabajo anterior. No des por disponibles archivos de otras conversaciones. Si falta el proyecto, créalo de forma mínima y compatible en una tarea de código, sin borrar nada.
+
+Prioridad visual:
+1) Un estadio reconocible, con escala y profundidad creíbles, desde el primer fotograma.
+2) Un conflicto que se entienda con imágenes.
+3) Un dilema equilibrado con información suficiente antes de votar.
+4) Continuidad, texto legible y movimiento controlado.
+5) Pulido de luz, materiales, sonido y exportación.
+
+La marca continúa con burdeos, arena y tipografía editorial. No traslades a esta serie a Ibai, Netflix, el ring ni otros elementos argumentales de La Velada. Conserva sus principios narrativos: impacto visual, humor, rebobinado, móvil, decisión y consecuencias posteriores.
+
+2. HECHOS, FECHA DEL RELATO Y LÍMITES DEL SUPUESTO
+
+Hechos de partida comprobados para redactar este encargo:
+- Valencia CF comunicó que reanudó las obras del Nou Mestalla el 10 de enero de 2025.
+- El club comunicó el 11 de octubre de 2024 la presentación del proyecto de ejecución, que desarrollaba estructuras, cubierta, fachadas, instalaciones y arquitectura interior.
+
+Fuentes:
+https://www.valenciacf.com/el-valencia-cf-reanuda-la-construccion-del-nou-mestalla-e-inicia-la-cuenta-atras-para-trasladarse-a-su-nuevo-estadio-en-verano-de-2027
+https://www.valenciacf.com/comunicat-oficial-projecte-dexecucio-del-nou-mestalla
+
+Estas fuentes no demuestran que existieran los problemas, conversaciones, inspecciones ni estrategias que dramatizamos. No las presentes como pruebas de defectos reales. El proyecto de ejecución ya presentado evita contar falsamente que en 2025 se pretendió seguir sin más con unos planos antiguos.
+
+Sitúa el relato como un ejercicio retrospectivo inspirado en el reinicio de 2025. Las imágenes del estadio parado son históricas o una recreación de ese periodo; nunca deben parecer una noticia de que sigue parado en la fecha de publicación.
+
+Tratamiento:
+- Identificador visible «NOU MESTALLA · SIMULACIÓN».
+- Al entrar en la mesa de obra: «Antes del reinicio de 2025».
+- En la descripción o documento de fuentes: «Caso educativo inspirado en la reanudación de las obras del 10/01/2025. Mensajes, sectores y alternativas son simulados».
+- Los técnicos tienen nombres ficticios y no se identifican como empleados reales del club, la constructora o el estudio de arquitectura.
+
+No dibujes grietas, desprendimientos, corrosión grave, cimentación defectuosa, derrumbes, instalaciones incendiadas ni incumplimientos que no estén documentados. El paso del tiempo no demuestra por sí solo un daño estructural. «Envejece» es el gancho sobre tiempo y cambios de necesidades, no un diagnóstico.
+
+No muestres sistemas viejos instalados si las referencias solo acreditan estructura de hormigón. Las redes de instalaciones propuestas deben aparecer como líneas de diseño o modelos de propuesta claramente diferenciados de los elementos construidos.
+
+No añadas normativa concreta, costes reales, plazos de inspección oficiales ni fechas de inauguración como hechos si no se han verificado. Este episodio no necesita cifras financieras ni una fecha actual de apertura. El visor de comparación es una visualización didáctica, no una herramienta BIM certificada ni un análisis técnico del edificio.
+
+3. DECISIÓN CANÓNICA Y DATOS DEL CASO
+
+Papel del espectador: responsable del proyecto que organiza la secuencia del reinicio, apoyándose en técnicos competentes. Su decisión es cómo ordenar diagnóstico de detalle, actualización y ejecución. No certifica por sí mismo la estructura.
+
+Situación ficticia que debe quedar fijada:
+- La revisión general previa ya está realizada. No existe en este supuesto una incertidumbre global sin resolver que impida cualquier actividad.
+- Hay paquetes de trabajo por zonas que pueden separarse. Cada uno necesita su revisión de detalle, documentación y liberación antes de ejecutar.
+- Algunas instalaciones del proyecto deben actualizarse. Parte de lo construido puede aprovecharse; no se ha justificado rehacer todo.
+- Avanzar por zonas permite comenzar antes determinados trabajos, pero añade coordinación entre revisión y ejecución, gestión de interfaces y posibles pausas.
+- La prioridad es avanzar aprovechando lo existente y evitando rehacer trabajos por incompatibilidades.
+
+No inventes el resultado de un cálculo estructural para reforzar B. Esta situación es un supuesto pedagógico y debe identificarse así.
+
+Pregunta literal: «¿Cómo retomas la obra?»
+
+Alternativas:
+A · REVISAR TODO PRIMERO
+Completar la revisión de detalle del conjunto y cerrar su actualización antes de movilizar los trabajos de terminación.
+Texto corto: «Más certeza. Arranque más tarde.»
+
+B · AVANZAR POR ZONAS
+Revisar, documentar y liberar paquetes separables; ejecutar los liberados mientras se revisa el resto, manteniendo puntos de parada e interfaces.
+Texto corto: «Arranque antes. Más coordinación.»
+
+C · ACTUALIZAR SISTEMAS PRIMERO
+Tras el diagnóstico, priorizar la actualización y coordinación del diseño de instalaciones antes de liberar los trabajos que dependan de esos sistemas.
+Texto corto: «Diseño coordinado. Obra dependiente en espera.»
+
+Las comprobaciones necesarias se realizan en las tres alternativas. No presentes C como «tirar todo porque sí», A como incompetencia ni B como saltarse controles. Son tres prioridades de secuencia, con componentes comunes. El proyecto real combinaría acciones; aquí se elige el criterio principal de arranque.
+
+Respuesta interna: B es la recomendación dadas las zonas realmente separables y la revisión global ya resuelta. No es una ley universal y no debe darse como respuesta visual en este vídeo.
+
+Guarda RESPUESTA-EP42.md con:
+- A protege la visión conjunta y reduce la necesidad de coordinar revisión y obra simultáneas. Retrasa frentes que podrían estar listos; ganaría si persisten dudas generales, muchas dependencias o capacidad insuficiente para coordinar.
+- B permite avance selectivo y aprendizaje temprano. Exige definir el paquete, evidencia de liberación, responsable, interfaces y condición de parada. Una zona liberada no equivale a validar el resto.
+- C prioriza coherencia de sistemas compartidos. Puede ser mejor si el diagnóstico revela que sus cambios dominan el conjunto; con cambios limitados puede retrasar trabajos independientes.
+- Ninguna opción garantiza un ahorro exacto ni que no aparezcan sorpresas.
+- Aprendizaje: «Para reanudar, decide qué está verificado, qué puede avanzar y qué depende de otra revisión».
+
+No añadas datos esenciales nuevos en el futuro vídeo para justificar una respuesta que aquí no se podía deducir. No uses color verde, checks de acierto, música triunfal o una opción mejor iluminada para delatar B.
+
+4. GANCHO Y DIRECCIÓN CREATIVA
+
+Gancho principal:
+Imagen: vista inmersiva de las gradas y estructura del Nou Mestalla durante el periodo previo al reinicio. Desde el primer frame, las masas de hormigón dominan la pantalla; una barandilla o borde de grada cercano da escala. No empieces con una diapositiva, calendario, maqueta minúscula ni logotipo.
+
+Acción: sobre el estadio aparece una lámina de proyecto semitransparente, como un plano sostenido delante de la vista. Las líneas principales se registran con la geometría existente; una capa de instalaciones y servicios queda indicada como pendiente de actualizar. La arquitectura no se deforma para hacer encajar el papel. El cambio está en las propuestas y comprobaciones, no en que el hormigón se retuerza.
+
+Texto literal: «Este estadio envejeció antes de estrenarse».
+Divídelo en dos líneas estables si hace falta. Que el estadio ya sea reconocible antes de que termine de entrar el texto.
+Identificador: «NOU MESTALLA · SIMULACIÓN».
+
+A los 3 segundos, el plano cambia de un documento archivado a una propuesta a revisar. Solo una etiqueta secundaria: «¿Qué sigue sirviendo?». Nunca pongas un falso sello oficial «NO APTO».
+
+La lona sugerida en el concepto previo es opcional únicamente sobre una mesa, un plano o un elemento pequeño. No envuelvas el estadio entero con una tela gigante ni hagas depender la apertura de una simulación de tela compleja.
+
+Variantes de reserva para una revisión interna del gancho:
+- Vista de obra a ras de grada + plano superpuesto + «Reanudar no es darle al play».
+- Aficionado con bufanda ante el estadio, abre un render en el móvil y compara con la estructura + «El futuro del render también cambió».
+No produzcas tres vídeos completos. Escoge el principal y cambia solo si la prueba visual demuestra que no se entiende. El primer gancho tiene prioridad porque une el estadio con la decisión del episodio sin repetir el niño que crece del 41.
+
+Humor:
+La preparación es la sensación de que basta con abrir un proyecto guardado. El remate es el «archivo definitivo» y las revisiones acumuladas, expresado mediante comentarios, sin convertir el caso en una burla hacia trabajadores o aficionados.
+El interés posterior está en ver avanzar una parte de la obra mientras otras siguen en revisión. El protagonista visual es el propio estadio.
+
+5. MARCA, TEXTO Y COMPOSICIÓN
+
+Usa primero los archivos de marca actuales. Si no hay tokens verificables, emplea provisionalmente burdeos #651F35, arena #E8DCC6, blanco roto #F7F3ED y carbón #222023. Son valores de trabajo, no colores oficiales atribuidos al usuario.
+El estadio conserva materiales y colores realistas; no pintes el hormigón de burdeos para «hacer marca».
+
+Tipografía: editorial, de revista, con títulos de carácter y textos de interfaz muy legibles. Reutiliza las fuentes del proyecto si encajan. No reintroduzcas Libre Baskerville por defecto. Si faltan, escoge una combinación con licencia compatible, acentos correctos y archivos locales.
+Títulos orientativos: 72–96 px; texto principal de mensajes y opciones: 48–60 px en 1080 px de ancho. Ajusta según la prueba a 390 px, no por cumplir números.
+
+Jerarquía:
+- Un elemento domina cada plano.
+- El texto explicativo siempre se mantiene frontal y quieto durante su lectura.
+- Máximo un mensaje nuevo en foco.
+- Las minietiquetas de sectores apoyan la imagen, no aportan un segundo párrafo.
+- Los controles del feed no deben tapar el dato, la pregunta ni las tres respuestas. Comprueba una superposición de referencia actual; no des por universales unos márgenes fijos.
+- No imites botones realmente pulsables si solo entregas un MP4.
+- No cambies tamaño de fuente o saltos de línea mientras se lee una frase.
+
+No marques la respuesta con colores. Para distinguir estado técnico de una zona, usa contorno, trama y etiqueta; el mismo lenguaje se aplica a las tres opciones.
+
+6. TIMELINE CERRADA
+
+Los intervalos de frames son inclusivos. Son ventanas de la composición final; las transiciones viven dentro de ellas. Si usas secuencias con solapamiento, compensa la duración para mantener exactamente 3540 frames.
+
+Tiempo | Frames | Contenido | Foco
+0–4 s | 0–239 | Estadio histórico recreado + plano superpuesto | Escala y paso del tiempo
+4–8 s | 240–479 | Comentarios graciosos | Dos remates legibles
+8–10 s | 480–599 | Rebobinado real | Vuelta al momento de decidir
+10–13 s | 600–779 | Mesa de obra | «Ahora diriges tú el reinicio»
+13–18 s | 780–1079 | Marta · Estructuras | Revisión general y zonas
+18–23 s | 1080–1379 | Leo · Instalaciones | Qué necesita actualización
+23–28 s | 1380–1679 | Nuria · Jefa de obra | Avance frente a coordinación
+28–31 s | 1680–1859 | Plano a estadio 3D | Pregunta y prioridad
+31–37 s | 1860–2219 | A · Revisar todo primero | Certeza y espera
+37–43 s | 2220–2579 | B · Avanzar por zonas | Revisión y obra separadas
+43–49 s | 2580–2939 | C · Actualizar sistemas primero | Interfaces y espera selectiva
+49–54 s | 2940–3239 | Resumen A/B/C | Elección
+54–56 s | 3240–3359 | Continuación | Consecuencias después
+56–59 s | 3360–3539 | Marca | Cierre limpio
+
+No llenes cada hueco con movimiento. Una pausa de lectura también es una decisión de montaje.
+
+7. STORYBOARD EJECUTABLE POR ESCENAS
+
+7.1 · Frames 0–239 · El estadio y su proyecto
+
+Desde el primer frame, encuadre atractivo de estructura y graderío. Evita un estadio circular genérico: respeta la huella, desniveles, vacíos y rasgos visibles en las referencias, sin fingir precisión métrica que no existe.
+
+Frames 0–35: desplazamiento corto de cámara para revelar profundidad. No órbita completa.
+Frames 24–55: entra el texto del gancho; desde 55 permanece estable.
+Frames 60–170: el plano se superpone y alinea; un gesto de comparación destaca que instalaciones y necesidades deben revisarse. No enseñes cinco capas a la vez.
+Frames 170–239: el plano y la cámara se asientan. Una transición breve convierte la misma vista en una publicación del caso.
+
+Si usas una foto como fondo, evita gran desplazamiento de cámara que delate que es una lámina plana. Un acercamiento moderado con máscaras puede apoyar el gancho. Las opciones posteriores sí necesitan geometría 3D real. No llames «modelo 3D» a un simple recorte.
+
+7.2 · Frames 240–479 · Comentarios
+
+La vista anterior queda detrás de una publicación simulada. Conserva un elemento del graderío como ancla. Dos comentarios principales, uno cada dos segundos:
+
+240–359:
+@PlanoFinal_v27
+«El definitivo tiene nietos.»
+
+360–479:
+@HormigonConCanas
+«Antes del estreno, actualización.»
+
+Cada principal entra en 12–18 frames y deja el resto quieto. El usuario es legible, pero el remate es el foco.
+Otras tarjetas se acumulan en profundidad y hacia cámara, sin tapar el comentario principal. No hagas una espiral ni movimientos aleatorios. El segundo puede desplazar al primero hacia el fondo, pero no borrarlo como si nunca hubiera existido.
+Incluye el rótulo «Comentarios ficticios» en la publicación, no como un aviso enorme.
+
+Banco de comentarios secundarios, usa solo 6–10 durante este bloque:
+@DondeEstaMiButaca · «Mi plano ya pide gafas.»
+@RenderConBufanda · «El render sigue en forma.»
+@PaquitoElDelBIM · «¿Quién tiene la última versión?»
+@CascoDeDomingo · «He traído el plano. Creo.»
+@GradaEnBeta · «Actualización pendiente.»
+@ElPrimoDelEncofrado · «Ese PDF es de la familia.»
+@VARDeLosPlanos · «Revisando la jugada.»
+@MestallaEnObrasHD · «¿Esto guarda automáticamente?»
+@ExcelConBotas · «Falta la pestaña definitiva.»
+@TornilloEnFueraDeJuego · «Me han cambiado de plano.»
+@AbonadoAlRender · «En la imagen ya estaba sentado.»
+@LaGruaDelGrupo · «Pasad el archivo bueno.»
+@CroquetaDeHormigon · «¿El plano tiene garantía?»
+@JefeDeObraDelSofa · «Yo lo vi en un tutorial.»
+@ArquitectoDeLaSiesta · «Despiértame en la revisión.»
+@CertificadoDePaciencia · «Esperando versión final.»
+
+No atribuyas citas a cuentas reales ni muestres perfiles reales de aficionados. No inventes cifras de reproducciones o una noticia viral real.
+
+7.3 · Frames 480–599 · Rebobinado
+
+Invierte los estados visuales del bloque 0–479: las tarjetas vuelven por sus trayectorias, desaparece la publicación, el plano se recoge y la cámara regresa. No sirve poner un filtro gris sobre una foto quieta.
+
+Frames 480–557: fuente temporal descendente, manteniendo reconocible el objeto.
+Frames 558–599: desacelera y empalma con un plano sobre la mesa de obra.
+El rótulo histórico lo leeremos después del movimiento; no exijas leer una fecha durante el rebobinado rápido.
+
+Implementación válida: función de estado evaluada hacia atrás, o prerender del tramo e inversión controlada de sus frames. No des por soportado playbackRate negativo.
+Sin flashes blancos, estrobos ni deformación de hormigón. Un leve arrastre horizontal o efecto de cinta basta.
+
+7.4 · Frames 600–779 · Ahora estás al mando
+
+Mesa de obra en primera persona: plano, casco, portátil y móvil. El estadio puede verse por la ventana de una caseta, sin un escenario genérico de oficina de lujo.
+El papel que vimos al final del rebobinado se asienta en esta mesa.
+
+Texto:
+«Ahora diriges tú el reinicio»
+Etiqueta temporal:
+«Antes del reinicio de 2025»
+
+El portátil contiene la misma geometría del estadio. No enseña ya una opción elegida.
+El móvil recibe una notificación y la cámara se acerca. Casco y manos son secundarios: si no hay manos de calidad, encuadra el móvil sobre la mesa sin ellas.
+
+7.5 · Frames 780–1079 · Primer dato
+
+Móvil reconocible con cabecera de conversación, avatar ficticio, mensaje, hora y barra de escritura. Ángulo casi frontal durante la lectura; nada de girar el móvil mientras se lee.
+
+Contacto: «Marta · Estructuras».
+Mensaje literal:
+«Revisión general hecha. Podemos liberar zonas independientes tras revisarlas en detalle.»
+
+El texto completo queda asentado antes del frame 810. Mantén la lectura al menos hasta 1050.
+Un adjunto pequeño muestra tres zonas numeradas 1, 2 y 3. Son sectores didácticos, no denominaciones oficiales. No uses A/B/C para esas zonas, porque se confundirían con las respuestas.
+No pongas todas las zonas «aprobadas»: solo se ha completado la revisión general del supuesto. El detalle de cada frente está por liberar.
+
+7.6 · Frames 1080–1379 · Segundo dato
+
+Notificación coherente y apertura de la conversación correspondiente dentro del mismo móvil.
+Contacto: «Leo · Instalaciones».
+Mensaje literal:
+«Hay instalaciones que actualizar. Parte de lo construido sí puede aprovecharse.»
+
+Un adjunto de diseño representa rutas propuestas con líneas finas y el hormigón existente con material sólido. No coloques tuberías viejas inexistentes para dramatizar el mensaje.
+Entrada en unos 20–25 frames; el resto quieto. La etiqueta «Propuesta» acompaña las rutas.
+No requiere leer un plano técnico ni aprender siglas.
+
+7.7 · Frames 1380–1679 · Tercer dato
+
+Contacto: «Nuria · Jefa de obra».
+Mensaje literal:
+«Por zonas empezaríamos antes, pero tendríamos que coordinar revisiones y obra a la vez.»
+
+Nuria quiere aprovechar actividad posible, no presionar para saltarse comprobaciones. No añadas urgencias arbitrarias ni amenazas.
+Pequeño apoyo visual: dos actividades que se solapan en una agenda sencilla, «Revisar» y «Ejecutar zona liberada». No muestres fechas inventadas como hitos reales.
+Si el apoyo obliga a reducir el mensaje, elimina el apoyo; no reduzcas la letra.
+
+7.8 · Frames 1680–1859 · Del adjunto al estadio
+
+La miniatura de sectores se amplía y se alinea con una vista en tres cuartos del estadio 3D. Si la superposición no mantiene una geometría coherente, utiliza un corte por coincidencia de forma. No hagas que el teléfono se convierta físicamente en hormigón.
+
+Pregunta: «¿Cómo retomas la obra?».
+Resumen de prioridad: «Aprovechar lo construido».
+La pregunta y la prioridad se mantienen estables al asentarse la vista.
+El estadio contiene tres zonas de trabajo ilustrativas; no está literalmente partido en tres edificios sin conexiones.
+
+7.9 · Frames 1860–2219 · A
+
+Título: «A · REVISAR TODO PRIMERO».
+Usa la cámara de comparación: vista en tres cuartos estable, con un corte parcial que permita ver gradas y circulaciones.
+
+Acción:
+- Tres zonas pasan por revisión de detalle de forma representativa.
+- La documentación de conjunto se cierra antes de que empiece la terminación.
+- Las cuadrillas de ejecución esperan fuera de los frentes, en una zona habilitada; no holgazanean ni parecen incompetentes.
+- No hagas brillar un escáner que certifique mágicamente el edificio. Una capa de estado representa el trabajo técnico, no lo sustituye.
+
+Texto: «Más certeza. Arranque más tarde.»
+Primeros 1,5–2 segundos para la acción; después deja imagen y texto estables.
+Representa el beneficio de disponer de una visión conjunta. No castigues A con oscuridad, caos o un reloj exagerado.
+No asignes días o euros. El retraso es relativo entre estrategias del supuesto.
+
+7.10 · Frames 2220–2579 · B
+
+Restablece el mismo estado inicial, cámara, luz, zonas y escala. B es otra rama, no lo que ocurre después de A.
+
+Título: «B · AVANZAR POR ZONAS».
+Acción:
+- Zona 1 completa revisión de detalle y queda «Liberada».
+- Solo entonces empieza un paquete concreto: por ejemplo acabados locales en un vestíbulo, con límites claros.
+- Zona 2 sigue «En revisión».
+- Zona 3 queda «Pendiente».
+- Se conserva visible una conexión común para que la división por zonas no parezca independencia total del estadio.
+- No cierres falsos techos o acabados que bloqueen redes compartidas aún sin definir.
+
+Texto: «Arranque antes. Más coordinación.»
+La liberación es un estado del supuesto, no una prueba de que la opción es correcta. Usa la misma etiqueta técnica que podría aparecer en A o C; no un check verde editorial.
+La vista permite ver obra y revisión coexistiendo, sin gente cruzando una zona no liberada.
+El coste de coordinación aparece en dos responsables trabajando con el mismo modelo o en dos actividades vinculadas; no añadas seis mensajes a la vez.
+
+7.11 · Frames 2580–2939 · C
+
+Vuelve otra vez al estado inicial; no heredes el vestíbulo terminado de B.
+
+Título: «C · ACTUALIZAR SISTEMAS PRIMERO».
+Acción:
+- Mismo corte del estadio.
+- Se destaca la capa de instalaciones propuesta.
+- Dos trazados se coordinan con pasos y espacios existentes, sin atravesar pilares ni vigas.
+- El diseño actualizado se asienta como propuesta coordinada.
+- Los frentes que dependen de esos sistemas permanecen pendientes. No bloquees visualmente todo el estadio si hay trabajos independientes.
+
+Texto: «Diseño coordinado. Obra dependiente en espera.»
+No demuelas la estructura ni hagas desaparecer sistemas construidos sin diagnóstico. El valor de C es coordinar una base común; no «hacerlo todo nuevo».
+Si una red compleja perjudica la claridad, muestra solo ventilación y electricidad como dos capas esquemáticas, etiquetadas «Propuesta», con recorridos comprensibles. No son planos ejecutivos.
+
+7.12 · Frames 2940–3239 · Elección
+
+Las tres vistas finales se convierten en tres tarjetas verticales:
+A · Revisar todo primero
+B · Avanzar por zonas
+C · Actualizar sistemas primero
+
+Cada tarjeta contiene una miniatura del mismo estadio y una etiqueta corta de intercambio:
+A · Certeza / espera
+B · Avance / coordinación
+C · Sistemas / frentes dependientes
+
+Texto principal: «¿A, B o C?».
+CTA: «Comenta tu decisión».
+Entrada dentro de 24 frames; al menos cuatro segundos estables.
+No cuenta atrás ni colores rojo/verde. No cambies el orden canónico. La información de las opciones ya se ha explicado, no añadas condiciones nuevas aquí.
+
+7.13 · Frames 3240–3359 · Consecuencias
+
+Sobre el estadio atenuado:
+«Las consecuencias, en el siguiente vídeo».
+No muestres aún cuál conviene ni prometas que el siguiente episodio numerado será necesariamente la resolución. Las fichas 43–50 son casos distintos; la resolución del 42 puede tener su propia composición.
+
+7.14 · Frames 3360–3539 · Cierre
+
+La línea editorial burdeos pasa al cierre:
+«Aprende gestión de proyectos
+con decisiones reales y simuladas.»
+
+«ALBERTO VILLA»
+
+La frase se refiere a la serie; en este vídeo sigue visible en pequeño «Caso simulado · Nou Mestalla».
+No añadas otra llamada a la acción que compita con comentar, un QR ni una URL inventada.
+Animación de entrada de 18–24 frames, resto quieto.
+Si falta tiempo de lectura, acorta a «Aprende gestión de proyectos» y conserva el nombre. No aceleres el cierre.
+
+8. MODELO 3D Y REALISMO ARQUITECTÓNICO
+
+Objetivo: arquitectura creíble y coherente, no un gemelo digital certificado.
+
+Construye un asset maestro reutilizable:
+- Huella y grandes volúmenes basados en referencias.
+- Graderíos escalonados con pasillos y vacíos coherentes.
+- Pilares, vigas, losas, vomitorios y vestíbulos con espesor visible.
+- Separación entre estructura existente, diseño propuesto y elementos de acabado.
+- Zonas de trabajo identificables sin inventar independencias estructurales.
+- Referencias humanas de escala discretas.
+
+Usa unidades consistentes. Si una medida no está documentada, trátala como aproximación visual y evita rótulos métricos. No conviertas una foto en un modelo aparentemente exacto.
+No representes el Nou Mestalla mediante un único toro liso o una elipse con cubos idénticos. La geometría cercana necesita detalle suficiente para sostener el gancho.
+
+Materiales:
+- Hormigón mate, con variación suave y escala de textura creíble; sin grietas añadidas.
+- Metal con reflejos contenidos, cristal solo donde corresponda al estado narrativo.
+- Evita superficies de plástico brillante y suciedad aleatoria.
+- Color y mapas normales/roughness configurados según el motor; no apliques la corrección de color dos veces.
+- Las líneas de diseño necesitan una jerarquía clara y no deben parpadear por solaparse con superficies.
+
+Luz:
+- Luz diurna motivada, direccional y relleno ambiental moderado.
+- Sombras de contacto para dar peso; no manchas negras que parezcan desperfectos.
+- Mismo horario de luz y exposición al comparar A/B/C.
+- Profundidad de campo sutil solo en planos que no exijan leer interfaces.
+- Evita bloom excesivo, niebla decorativa y contrastes que oculten hormigón.
+
+Vistas cortadas y despiece:
+- Si haces un corte, conserva contornos y espesores; no dejes paredes de papel.
+- Una vista explosionada se identifica como explicación y usa un desplazamiento corto controlado.
+- No arranques gradas reales volando para representar una revisión.
+- Ocultar una cubierta o pared para mostrar el interior no es una demolición: distingue la máscara editorial de una acción de obra.
+
+Personas:
+- Pocas, bien colocadas, con vestuario y protección adecuados a la escena.
+- No hacen falta multitudes ni caras fotorrealistas.
+- Pies sobre superficies, pasos coherentes, sin cuerpos atravesando vallas.
+- No reutilices al mismo personaje con diferentes proporciones en cada plano.
+- Prioriza manos y escala de los objetos si aparecen en primer plano; si no pueden resolverse, cambia el encuadre.
+
+Blender es opcional para modelado, UV o preparación de GLB si está disponible y aporta una mejora visible. No añadas un servicio externo o un renderizador complejo solo por nombrarlo. Si se usa, conserva el .blend y un export reproducible; el tiempo de cualquier animación horneada se debe poder buscar de forma determinista.
+
+9. MOTION, CÁMARA Y CONTINUIDAD
+
+Define por plano: origen, destino, ancla, curva, asentamiento, lectura y salida. El movimiento explica algo.
+- Cámara que revela el estadio; no zoom constante durante 59 segundos.
+- Plano → publicación → comentarios → rebobinado → plano sobre mesa.
+- Notificación → conversación correcta → mensaje completo → lectura.
+- Adjunto → vista comparable del estadio.
+- A/B/C parten del mismo estado y acaban en tarjetas del resumen.
+
+Usa aceleración y frenado suaves, desplazamientos cortos y asentamientos limpios. No hagas rebotar hormigón, cámaras, teléfonos ni párrafos. Una elasticidad pequeña puede servir para el remate de una tarjeta, pero no para todas.
+Texto compuesto en su ancho final; anima la máscara o el grupo sin redistribuir palabras.
+Usa un único marco de móvil durante los relevos entre 3D y 2D. Alinea caja, esquinas, perspectiva y pantalla antes de intercambiar componentes.
+Un corte motivado es preferible a un morph que deforma objetos o confunde la relación.
+No uses transición de giro 3D para cada mensaje. No cortes mientras una persona está terminando de leer.
+
+Cuando reutilices una foto, no la estires para forzar continuidad con el modelo. Coincide puntos de referencia o corta limpiamente. Si una referencia fotográfica no tiene licencia para incorporarse, utilízala solo para orientar un modelo propio.
+
+10. IMPLEMENTACIÓN DETERMINISTA EN REMOTION
+
+Consulta la documentación que corresponda a las versiones reales del proyecto:
+https://www.remotion.dev/docs/three-canvas
+https://www.remotion.dev/docs/three
+https://www.remotion.dev/docs/transitions/transitionseries
+https://www.remotion.dev/docs/quality
+https://www.remotion.dev/docs/gl-options
+
+Base sugerida: TypeScript, React, Remotion, @remotion/three, Three.js y React Three Fiber compatibles. No fuerces una actualización global de un proyecto que funciona.
+
+- Tiempo visual derivado de useCurrentFrame(), fps y datos estables.
+- Para esta implementación con ThreeCanvas, no animar con useFrame de R3F, Date.now, setTimeout, requestAnimationFrame, setAnimationLoop ni incrementos acumulativos.
+- Las guías genéricas de Three.js pueden contener bucles de tiempo real. Adapta el concepto y no copies esos bucles al vídeo.
+- Semillas fijas para tarjetas, variación de texturas y posiciones de personas.
+- Shaders, uniformes, trazados y estados también dependen del frame.
+- ThreeCanvas recibe width y height de la composición.
+- Dentro del canvas, usa las secuencias sin layout DOM cuando corresponda.
+- Si se utiliza AnimationMixer, restablece acciones, pesos y tiempo para que el resultado no dependa del frame anterior. Verifica saltos hacia delante y atrás.
+- Fuentes, modelos y texturas deben estar cargados antes de capturar; usa las primitivas de carga compatibles y rutas locales.
+- No uses un URL remoto variable como dependencia de cada fotograma.
+- Evita fugas de geometrías, materiales y texturas al cambiar de rama.
+- Conserva tipos y separación entre contenido, geometría, estados y timeline.
+
+El rebobinado evalúa los mismos estados con otra coordenada de tiempo. Si tu componente usa el frame local de una Sequence, evita restar dos veces su desplazamiento.
+
+11. SKILLS: SELECCIÓN, REVISIÓN E INSTALACIÓN
+
+Este prompt autoriza preparar e instalar en el proyecto las skills que falten y aporten a esta producción, después de revisar su contenido y compatibilidad. No presupone que estén instaladas en tu entorno porque aparezcan en este documento.
+
+Primero inventaría las skills reales. Lee sus instrucciones antes de usarlas. Registra en SKILLS-EP42.md: nombre, origen, revisión/commit, archivos revisados, uso concreto, adaptación y estado. Distingue disponible, instalada y candidata pendiente.
+
+A. Guion y dirección que se han utilizado para redactar el encargo, si están accesibles en tu sesión:
+- buscar-skills: descubrir y revisar sin instalar duplicados.
+- viral-hooks: revisar claridad del primer plano, interés y promesa.
+- scenario-generation: datos, alternativas y consecuencias.
+- storyboard: escena, objeto, acción y tiempos de lectura.
+- motion-editorial: puesta en escena y jerarquía.
+- motion-interfaces: geometría compartida y relevos sin saltos.
+- motion-movil-agenda: mensajes reconocibles y tiempo causal.
+
+Son skills personales; no inventes un paquete público para instalarlas. Si no están disponibles, este prompt ya contiene las pautas necesarias.
+
+B. Remotion, prioridad principal:
+Repositorio oficial:
+https://github.com/remotion-dev/skills
+Skill: remotion-best-practices.
+Lee las secciones aplicables de creación, markup, 3D, render y revisión. Ruta 3D consultada:
+https://github.com/remotion-dev/skills/blob/main/skills/remotion-best-practices/remotion-markup/3d.md
+Si cambia la estructura del repositorio, localiza la ruta real. No asumas que una referencia antigua se mantiene.
+
+C. Motion y revisión, candidatas a revisar en la versión que vayas a instalar:
+Repositorio:
+https://github.com/Paldom/storytelling-animation
+- smooth-motion-choreography: pausas, curvas y transiciones.
+- animation-frame-qa: revisar el archivo exportado a escala móvil y cambios de plano.
+Fichas localizadas:
+https://www.skills.sh/paldom/storytelling-animation/smooth-motion-choreography
+https://www.skills.sh/paldom/storytelling-animation/animation-frame-qa
+
+En la preparación de este prompt se comprobaron el catálogo y el repositorio, pero el acceso web a los archivos individuales fue incompleto. Eso no equivale a una auditoría del paquete ni a una instalación. En el entorno de producción, lee los SKILL.md completos y cualquier script usado.
+No adoptes automáticamente los presets del pack para otro formato, sus duraciones ni su estética vectorial. Este encargo exige 9:16, 60 fps, 59 s y estadio 3D.
+
+D. Arquitectura y rendimiento, paquete candidato:
+https://github.com/CloudAI-X/threejs-skills
+
+Prioridad alta, con fuente localizada:
+- threejs-geometry: gradas, losas, huecos, geometría repetida.
+https://github.com/CloudAI-X/threejs-skills/blob/main/skills/threejs-geometry/SKILL.md
+- threejs-materials: hormigón, metal, transparencia y respuesta de superficies.
+https://github.com/CloudAI-X/threejs-skills/blob/main/skills/threejs-materials/SKILL.md
+- threejs-lighting: luz y sombras.
+https://github.com/CloudAI-X/threejs-skills/blob/main/skills/threejs-lighting/SKILL.md
+- threejs-performance: instancias, memoria y coste de escenas amplias.
+https://github.com/CloudAI-X/threejs-skills/blob/main/skills/threejs-performance/SKILL.md
+
+Adicionales localizadas en el índice del mismo repositorio; instalar solo si se usan:
+- threejs-textures: UV y mapas de materiales.
+- threejs-loaders: carga GLB/glTF y recursos asociados.
+- threejs-asset-pipeline: optimizar modelos pesados manteniendo calidad.
+- threejs-animation: poses y clips horneados si aparecen personas animadas.
+- threejs-react-three-fiber: estructura de escena y ciclo de recursos.
+- threejs-shaders: solo si la capa de plano o corte requiere un shader propio.
+- threejs-postprocessing: solo si corrige una necesidad concreta.
+
+Compatibilidad: estas guías se presentan para una revisión concreta de Three.js y contienen ejemplos en tiempo real o WebGPU. No fuerces esa revisión ni WebGPU sobre Remotion. Comprueba las dependencias instaladas, adapta las APIs y mantén la animación gobernada por frames. No necesitas controles interactivos, físicas en directo ni un pipeline WebGPU para exportar este episodio.
+
+E. Procedimiento:
+1) Resolver el origen real, autoría, licencia y commit.
+2) Leer la carpeta completa de cada skill elegida y los scripts/referencias que se vayan a ejecutar.
+3) Revisar permisos, red, telemetría, descargas y acciones de instalación; no ejecutar código para averiguar después qué hacía.
+4) Copiar o instalar solo lo necesario en el mecanismo de skills reconocido por ese Codex. Comprobar la ruta vigente del proyecto; no instalar para otro agente por error.
+5) Conservar licencia y atribución y guardar cambios en el repositorio cuando corresponda. No confundir una copia temporal con instalación persistente.
+6) Probar que la skill se puede leer y aplicar. Si necesita un servicio ausente, aplicar la parte metodológica y declarar el límite.
+7) No ejecutar «npx ... latest» indiscriminadamente. Si utilizas un CLI instalador, revisa su versión y comportamiento además del texto de la skill.
+8) No añadas servicios de pago ni credenciales que no sean necesarios. El render básico se realiza con las herramientas del proyecto.
+9) No conviertas la búsqueda de skills en el entregable: pasa a producir cuando el flujo esté cubierto.
+
+No afirmes que los candidatos nuevos están auditados por el redactor de este prompt. Las fuentes comprobadas acreditan su existencia y utilidad propuesta, no compatibilidad automática ni ausencia de riesgos en futuras versiones.
+
+12. RENDIMIENTO Y EXPORTACIÓN
+
+Inspecciona CPU, memoria, almacenamiento y funcionamiento real de Chromium/WebGL. Una skill no proporciona una GPU. Prueba un clip representativo antes del render completo.
+
+Optimiza:
+- Repite geometrías compartidas con instancias cuando corresponda.
+- Conserva detalle donde mira la cámara.
+- Agrupa elementos por zonas para no cargar o dibujar todo indiscriminadamente.
+- Usa pocas luces con sombras costosas.
+- No hagas texturas 8K para objetos pequeños.
+- No comprimas geometría hasta perder barandillas, espesores o escalones.
+- Mide el cuello de botella antes de reducir calidad.
+- Ajusta concurrencia para no agotar memoria.
+
+Salida:
+MP4 H.264, 1080 × 1920, 60 fps, 59 s, formato de píxel compatible con móvil, color Rec.709 cuando el pipeline lo soporte.
+CRF 16–18 puede servir de punto de partida en codificación software; inspecciona el archivo real. Si el codificador usa bitrate, no mezcles parámetros incompatibles.
+No generes a 720p para ampliar después. No dupliques una animación de 30 fps para llamarla 60 fps.
+Evita intermedios muy comprimidos y revisa que las líneas del plano y el hormigón no produzcan parpadeo.
+
+Audio opcional:
+- Ambiente tenue de obra sin maquinaria constante durante toda la pieza.
+- Toques breves de tarjetas, cinta y notificación.
+- Sin voz, música comercial ni sonidos que sugieran un accidente.
+- Guarda audio por separado si se va a añadir voz posteriormente. No contrates ni uses ElevenLabs para esta entrega.
+
+13. PRUEBAS Y REVISIÓN VISUAL
+
+Orden de producción:
+1) Inventario y guion: comprobar referencias, fechas, fuentes, dependencias y skills.
+2) Fotogramas de estilo: gancho, móvil y vista común de opciones.
+3) Clip 0–13 s: comprobar estadio, plano, comentarios y rebobinado.
+4) Clip de comparación: mismo modelo y cámara para A/B/C.
+5) Montaje completo y revisión de densidad de texto.
+6) Render final y revisión del MP4 decodificado.
+7) Corregir los defectos encontrados y volver a revisar lo afectado y el conjunto cuando cambie materialmente.
+
+Las revisiones intermedias son trabajo autónomo; no me pidas confirmación para cada plano. No sigas con un defecto importante visible solo para terminar antes.
+
+Criterios de aceptación:
+1. El frame 0 ya contiene un estadio potente y reconocible, no una entrada incompleta.
+2. El gancho no acusa un deterioro estructural ni un fallo real sin fuente.
+3. El momento histórico queda claro; no parece una noticia sobre paralización actual.
+4. El plano se alinea con el modelo y las capas de propuesta se distinguen de lo construido.
+5. No hay gradas deformadas, escaleras imposibles, sombras parpadeantes o paredes sin espesor.
+6. Los dos comentarios principales se leen a tamaño móvil; los secundarios no compiten.
+7. El rebobinado reproduce hacia atrás el contenido anterior.
+8. El primer mensaje deja claro que la revisión general está hecha, sin afirmar que todo está validado.
+9. El segundo distingue actualización selectiva de sustituirlo todo.
+10. El tercero explica el coste de coordinación del avance por zonas.
+11. A/B/C tienen duración, luz, tamaño y lenguaje comparables.
+12. Ninguna alternativa omite controles. La liberación de una zona precede a su ejecución.
+13. Se muestran conexiones compartidas y trabajos realmente separables dentro del supuesto.
+14. C coordina diseños; no finge que todas las instalaciones antiguas estaban ya montadas.
+15. Las ramas se reinician desde el mismo estado; no acumulan resultados de otra alternativa.
+16. Móvil, textos y opciones se leen a unos 390 px de ancho sin ampliar.
+17. La pausa de lectura se mide desde el texto completo y asentado.
+18. Ninguna parte esencial queda oculta por la interfaz del feed.
+19. Revisa frames antes, durante y después de máscaras y cambios de cámara; sin dobles marcos, flashes o saltos.
+20. Evalúa frames representativos en orden, hacia atrás y con saltos. No deben cambiar de estado según el recorrido.
+21. Comprueba duración, resolución, fps y decodificación del MP4.
+22. Revisa reproducción a velocidad normal y sin sonido si hay herramienta disponible. Si solo pudiste ver frames o tiras de frames, informa de ese límite y no declares validada la fluidez.
+23. No hay respuesta revelada ni recompensa de acierto.
+24. Cierre y CTA no añaden promesas o enlaces inventados.
+
+Registra en REVISION-EP42.md solo observaciones reales: escena/frame, defecto, cambio y comprobación. No inventes puntuaciones de retención ni declares que una skill garantiza viralidad.
+
+14. ESTRUCTURA DE ARCHIVOS Y REFERENCIAS
+
+Adapta al proyecto existente; no es obligatorio renombrar su arquitectura.
+
+Rutas propuestas:
+- prompts/Prompt_Codex_Nou_Mestalla_42_Reinicio.txt
+- referencias/nou-mestalla/comunes/ : fotos de referencia y marca.
+- referencias/nou-mestalla/ep42/ : materiales específicos y registro de procedencia.
+- public/mestalla/ : solo assets que el renderer deba cargar y cuyo uso corresponda.
+- src/mestalla/ep42/ : composición, escenas, textos y timeline.
+- src/mestalla/shared/ : modelo de estadio, móvil y componentes reutilizables.
+- docs/mestalla/ep42/ : storyboard, fuentes, skills, respuesta y revisión.
+- out/ : MP4 final y pruebas seleccionadas.
+
+No crees rutas src, node_modules, public, etc. a mano si el proyecto usa otra estructura: integra con lo que ya exista.
+
+Para cada imagen registra nombre, fuente, fecha o periodo, qué representa y si es referencia visual o asset incorporable. Una foto pública no equivale a permiso de reutilización. En particular, las páginas del club consultadas contienen restricciones sobre fotografías; utiliza sus imágenes como orientación o busca material con autorización/licencia adecuada para insertarlo en el MP4.
+
+Las fotos previas al reinicio no se mezclan con cubiertas o elementos construidos después como si coexistieran. Los renders finales son propuestas, no fotografías de una obra ya terminada.
+No elimines marcas de agua. No prometas un modelo BIM exacto a partir de cinco fotos.
+Si falta una vista, busca una referencia adecuada o usa un encuadre respaldado por las disponibles. No bloquees todo por un detalle opcional, pero no inventes arquitectura protagonista y la presentes como exacta.
+
+15. ENTREGA
+
+Entrega:
+- Nou_Mestalla_42_Reinicio_Decision_59s.mp4.
+- Fuentes editables y recursos propios o redistribuibles.
+- Instrucciones exactas para abrir la composición y repetir el render usando las versiones del proyecto.
+- Un resumen breve de lo implementado, las skills realmente utilizadas y límites pendientes.
+- Documentos internos: storyboard/timeline, FUENTES-EP42.md, SKILLS-EP42.md, RESPUESTA-EP42.md y REVISION-EP42.md.
+
+No basta con un enlace a Studio, una captura, un proyecto sin exportar o un vídeo con placeholders. No presentes un fallo de backend como si estuviese resuelta la calidad visual. Si el render final es imposible por una limitación real, conserva las fuentes y pruebas válidas e identifica el bloqueo exacto.
+
+Empieza por revisar el repositorio y las referencias; después prepara el modelo y los fotogramas de estilo. Continúa hasta el MP4 final revisado.
+
+APÉNDICE A · PREPARAR EL ENTORNO PARA ALBERTO
+
+Si ya creaste un entorno del Nou Mestalla para el episodio 41 y funciona, úsalo para el 42. No hace falta un entorno distinto para cada vídeo.
+
+Si aún no lo has creado:
+1) En la web o aplicación de escritorio, abre una tarea y selecciona Work in > Cloud > Select environment > Create environment. Otra ruta documentada es Settings > Codex Cloud > Environments.
+2) Selecciona el repositorio GitHub donde ya tienes el proyecto Remotion de los vídeos. Nombre recomendado para el entorno: «Nou Mestalla · Remotion».
+3) Pulsa Get started y deja que Codex inspeccione las dependencias. Este entorno puede usar el mismo repositorio; pide una composición y carpetas propias para Mestalla, preservando La Velada.
+4) En la conversación de preparación, pega el bloque siguiente.
+5) Cuando terminen las pruebas, revisa el informe, guarda y pulsa Publish.
+6) Espera «Environment published», pulsa Start a new task y adjunta este prompt y las referencias.
+7) Para seguir este episodio, vuelve a esa misma tarea. Para otro episodio, utiliza una tarea nueva cuando el material compartido ya esté disponible en el repositorio o en la preparación publicada.
+
+Texto para preparar el entorno:
+
+«Prepara este repositorio para una serie vertical del Nou Mestalla con Remotion y TypeScript. Conserva los vídeos existentes. Instala las dependencias según el lockfile y comprueba versiones compatibles de Remotion, @remotion/three, Three.js y React Three Fiber. Prepara Chromium para render, FFmpeg/ffprobe y los recursos locales que hagan falta. Comprueba con una escena breve que puede exportarse contenido 3D a 1080 × 1920 y 60 fps; no presupongas una GPU. Revisa las skills de Remotion, motion y Three.js citadas en el prompt del episodio 42 e instala solo las pertinentes y compatibles que falten. Registra un procedimiento reproducible de instalación y arranque. Si preparar una composición o cambiar package.json/lockfile requiere una tarea de código, indícalo y separa esa modificación del setup. Deja identificados los dominios necesarios para dependencias y recursos. No generes aún el episodio completo.»
+
+No tienes que escribir tú un script de instalación si la interfaz permite preparar el entorno conversando. Si tu cuenta muestra una interfaz heredada distinta, conserva estos requisitos y deja que Codex ajuste el procedimiento; no copies comandos de otra versión sin comprobarlos.
+
+Red:
+Activa el acceso a los gestores de paquetes y permite los dominios concretos que use el proyecto para skills, documentación, navegador y recursos. Entre los habituales figuran github.com, raw.githubusercontent.com, codeload.github.com, skills.sh, www.skills.sh, remotion.dev y www.remotion.dev. Los hosts de descargas del navegador o assets pueden ser diferentes; el informe de preparación debe identificarlos. No introduzcas secretos en el prompt. No se necesita una clave de IA para el render normal.
+
+Conservación:
+Un nuevo entorno o tarea no importa automáticamente el contenido de otras conversaciones. Asegúrate de que el código común y los recursos necesarios están guardados en el repositorio o adjunta de nuevo lo imprescindible. Las skills personales de otra máquina tampoco se presuponen sincronizadas.
+
+Fuente del flujo de entorno consultada el 05/11/2026:
+https://learn.chatgpt.com/docs/environments/cloud-environments
+
+APÉNDICE B · QUÉ IMÁGENES Y ARCHIVOS PASARLE
+
+Paquete recomendado; nombres orientativos, no hace falta que Alberto los renombre todos:
+
+1) 01_nou_mestalla_general_pre2025.jpg
+Foto amplia o aérea de la estructura antes del reinicio. Sirve para huella, graderíos y estado histórico. Es la referencia más importante.
+
+2) 02_nou_mestalla_interior_pre2025.jpg
+Foto desde dentro, con gradas de hormigón y algún elemento cercano que dé escala. Sirve para el primer plano inmersivo.
+
+3) 03_nou_mestalla_estructura_detalle.jpg
+Vista de pilares, vigas, pasillos o acceso a gradas. Sirve para modelar espesores y materiales. Comprueba el periodo de la foto.
+
+4) 04_nou_mestalla_propuesta_identificada.jpg
+Render o imagen de proyecto oficial, con su fecha y versión si se conocen. Sirve para distinguir «lo construido» de «lo que se quiere hacer», sin asumir que un render antiguo es el proyecto vigente.
+
+5) 05_nou_mestalla_planta_o_aerea.jpg
+Planta divulgativa o segunda vista aérea desde otro ángulo, si está disponible. Ayuda a que el modelo no sea un estadio genérico. No hace falta conseguir planos técnicos privados.
+
+Además:
+- 06_marca_alberto.png o .pdf: colores, tipografía y referencia editorial actual.
+- 07_video_referencia_53s.mp4: el vídeo que te gustó, para estudiar ritmo, comentarios y rebobinado. No se presupone que se haya visto hasta que Codex lo abra.
+- Si existe: vídeo, capturas y, sobre todo, fuentes/modelo del episodio 41 para mantener continuidad.
+- Un pequeño texto con URLs y fechas de las imágenes evita mezclar periodos.
+
+Mínimo práctico para empezar:
+una vista general histórica, una vista interior histórica, una referencia de proyecto identificada y la marca. El vídeo anterior ayuda a conservar estilo. La foto de detalle y la segunda aérea mejoran la fidelidad pero no deberían bloquear el trabajo.
+
+Entrega imágenes originales separadas, preferiblemente de 1600–2000 px o más en el lado largo si existen. No amplíes miniaturas pensando que así ganan detalle. Un PDF recopilatorio puede explicar contexto, pero no sustituye los archivos originales.
+
+No necesitas fotos de Ibai, TheGrefg, un pesaje o carteles de La Velada para este caso.
+
+Mensaje al iniciar la tarea de producción:
+
+«Lee íntegramente Prompt_Codex_Nou_Mestalla_42_Reinicio.txt y ejecuta sus instrucciones. Usa las referencias adjuntas y el proyecto del entorno. Comprueba e instala, tras revisarlas, las skills pertinentes que falten. Produce únicamente el episodio 42 en una composición independiente, conservando el trabajo anterior. Continúa hasta entregar el MP4 final revisado y sus fuentes editables.»
+
+FIN DEL PROMPT
+
