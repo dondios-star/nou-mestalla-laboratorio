@@ -1,0 +1,47 @@
+{
+  "source": "https://github.com/dondios-star/velada-laboratorio",
+  "commit": "a7e302ced8efb0ccb7dbadc493c42f6c069ff74d",
+  "copied": [
+    {
+      "source": "public/fonts/anton-LICENSE.txt",
+      "destination": "video/public/fonts/anton-LICENSE.txt",
+      "sha256": "9267baca92b7a7ce9db6dd9e6cc32c9fe3ddf1ac96e421d5f87c5746b9089d6a",
+      "mode": "exact copy"
+    },
+    {
+      "source": "public/fonts/inter-latin-400-normal.woff2",
+      "destination": "video/public/fonts/inter-latin-400-normal.woff2",
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc",
+      "mode": "exact copy"
+    },
+    {
+      "source": "public/fonts/anton-latin-400-normal.woff2",
+      "destination": "video/public/fonts/anton-latin-400-normal.woff2",
+      "sha256": "d0fa07ff63dd60cbc0e2f58e29c802dca2a5ae0276c999f59c6111ab7bbaec3b",
+      "mode": "exact copy"
+    },
+    {
+      "source": "public/fonts/inter-latin-700-normal.woff2",
+      "destination": "video/public/fonts/inter-latin-700-normal.woff2",
+      "sha256": "6f56409fd3d64bb85f7d070bce20749db2d66b6d63cec586cc22d1c761be2491",
+      "mode": "exact copy"
+    },
+    {
+      "source": "public/fonts/inter-LICENSE.txt",
+      "destination": "video/public/fonts/inter-LICENSE.txt",
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345",
+      "mode": "exact copy"
+    }
+  ],
+  "adapted": [
+    "src/Icons.tsx → video/src/shared/ui/Icons.tsx (seis iconos genéricos, sin logotipos ni navegación de plataformas)",
+    "src/state.ts → video/src/shared/motion/time.ts (curvas, rectángulos y rebobinado parametrizados)",
+    "src/Comments.tsx → video/src/shared/ui/CommentStack.tsx (sin textos, nombres ni cifras originales)",
+    "src/Messaging.tsx → video/src/shared/ui/Phone.tsx (contenido, tiempos y adjunto como props)"
+  ],
+  "excluded": [
+    "Episode, Player, Stadium3D, YouTube, ThreeShots",
+    "Personajes, textos, imágenes, audio y MP4 de La Velada"
+  ],
+  "authorization": "Reutilización interna solicitada por el propietario; el origen no declara licencia general para redistribuir su código. Fuentes tipográficas con OFL incluida."
+}
