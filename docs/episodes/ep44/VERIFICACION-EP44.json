@@ -1,0 +1,109 @@
+{
+  "mp4": "out/ep44/Nou_Mestalla_44_Licencia_Contratos_Decision_59s.mp4",
+  "sha256": "28d84b7c758d2e9d9d11fb8354af9e3ae83637cf48d692d8cbec9b8ade75f64a",
+  "width": 1080,
+  "height": 1920,
+  "fps": "60/1",
+  "duration": "59.000000",
+  "frames": "3540",
+  "codec": "h264",
+  "pixelFormat": "yuv420p",
+  "colorSpace": "bt709",
+  "audioStreams": 0,
+  "fullDecode": "pass",
+  "brandColorCheck": [
+    {
+      "frame": 3490,
+      "expectedRGB": [
+        75,
+        25,
+        49
+      ],
+      "decodedRGB": [
+        73,
+        23,
+        48
+      ],
+      "maxChannelError": 2
+    },
+    {
+      "frame": 1250,
+      "expectedRGB": [
+        244,
+        234,
+        216
+      ],
+      "decodedRGB": [
+        242,
+        233,
+        214
+      ],
+      "maxChannelError": 2
+    }
+  ],
+  "visualReview": {
+    "method": "Images decoded from the final MP4 inspected visually; no continuous visual viewing claimed",
+    "contactSheetsInspected": [
+      "contact-0.jpg",
+      "contact-1.jpg",
+      "contact-2.jpg",
+      "contact-3.jpg",
+      "contact-4.jpg"
+    ],
+    "mobileSheetsInspected": [
+      "mobile-0.jpg",
+      "mobile-1.jpg",
+      "mobile-2.jpg",
+      "mobile-3.jpg",
+      "mobile-4.jpg"
+    ],
+    "baselineFramesInspected": 60,
+    "followUpFrames": [
+      652,
+      653,
+      654,
+      655,
+      656,
+      657,
+      658,
+      659
+    ],
+    "findings": "No blank/black frames or new text overlap in inspected samples. Rewind badge corrected at F680. Attachment continuity and A/B/C resets preserved.",
+    "lumaJumpReview": {
+      "654": "Reversed phone/overlay fade; frames 652–659 inspected, no isolated white frame",
+      "720": "Deliberate cut from exterior to planning model",
+      "3060": "Deliberate change to burgundy decision screen"
+    }
+  },
+  "browserPlayback": {
+    "ended": true,
+    "duration": 59,
+    "currentTime": 59,
+    "width": 1080,
+    "height": 1920,
+    "playbackRate": 1,
+    "muted": true,
+    "elapsedSeconds": 59.01690000000037,
+    "frameCallbacks": 3033,
+    "totalVideoFrames": 3540,
+    "droppedVideoFrames": 24,
+    "meaning": "Technical full-length browser playback only; no claim of continuous visual inspection."
+  },
+  "tests": {
+    "typecheck": "pass",
+    "nodeTests": "4/4",
+    "motionLint": "0 errors, 0 warnings, 7 files",
+    "technicalSmoke": "300 frames / 5 seconds, verify passed",
+    "randomSeek": "Repeat frame hashes identical for live 3D and final composition"
+  },
+  "conservation": {
+    "originalImagesUnchanged": 12,
+    "otherEpisodesUnchanged": [
+      41,
+      42,
+      45
+    ],
+    "mainIncluded": "9b977f27fa8cb5bd550f4bd346c0070604bb4c17"
+  },
+  "sourceHash": "a9eb4017a05ae43ceae70c6a06d35a30573b8baad87554c4aa521c1e05602324"
+}

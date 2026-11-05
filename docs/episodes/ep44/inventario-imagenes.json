@@ -1,0 +1,158 @@
+[
+  {
+    "path": "Imágenes/Esquema.png",
+    "format": "PNG",
+    "size": [
+      1041,
+      565
+    ],
+    "sha256": "806cbeb84908a629c6efd4475b3fe050cc0f66d95d9879920c436ba09f4b6875",
+    "dateTimeOriginal": null,
+    "dateTime": null,
+    "artist": null,
+    "copyright": null
+  },
+  {
+    "path": "Imágenes/Exterior 2013.jpg",
+    "format": "JPEG",
+    "size": [
+      330,
+      187
+    ],
+    "sha256": "96c13a24fa065849330e327e80f0be66497d94f42d4578a5a2295e56079aa293",
+    "dateTimeOriginal": null,
+    "dateTime": null,
+    "artist": null,
+    "copyright": null
+  },
+  {
+    "path": "Imágenes/Exterior nuevo 2ç.webp",
+    "format": "WEBP",
+    "size": [
+      1200,
+      840
+    ],
+    "sha256": "b2246df13f4a7d8c75abef53f05e733977072e4eb7c01d22cdebb9ee46eace55",
+    "dateTimeOriginal": null,
+    "dateTime": null,
+    "artist": null,
+    "copyright": null
+  },
+  {
+    "path": "Imágenes/Exterior nuevo 3.avif",
+    "format": "AVIF",
+    "size": [
+      644,
+      362
+    ],
+    "sha256": "87e53141c6eb3696d8000c29ddd6249c99d1f58a1fc6ac7d9ae2cb11895bd142",
+    "dateTimeOriginal": null,
+    "dateTime": null,
+    "artist": null,
+    "copyright": null
+  },
+  {
+    "path": "Imágenes/Exterior nuevo.jfif",
+    "format": "JPEG",
+    "size": [
+      335,
+      597
+    ],
+    "sha256": "a205160cd737d97861b7cb3ec4ebc870ecb3f8b90062a2ddc2e0de573fa77c24",
+    "dateTimeOriginal": null,
+    "dateTime": null,
+    "artist": null,
+    "copyright": null
+  },
+  {
+    "path": "Imágenes/Exterior.avif",
+    "format": "AVIF",
+    "size": [
+      644,
+      362
+    ],
+    "sha256": "87e53141c6eb3696d8000c29ddd6249c99d1f58a1fc6ac7d9ae2cb11895bd142",
+    "dateTimeOriginal": null,
+    "dateTime": null,
+    "artist": null,
+    "copyright": null
+  },
+  {
+    "path": "Imágenes/Interior 2.jpg",
+    "format": "JPEG",
+    "size": [
+      1200,
+      675
+    ],
+    "sha256": "d2384d88f4b43436f5735b2e12c193797a77797bfd59ebb6572c1614bc8111d3",
+    "dateTimeOriginal": null,
+    "dateTime": null,
+    "artist": null,
+    "copyright": null
+  },
+  {
+    "path": "Imágenes/Interior 3.jpg",
+    "format": "JPEG",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "5c7c16254848e8efb5866fcafab9b688862559e98d103cd21ca09551ce0d9f2f",
+    "dateTimeOriginal": null,
+    "dateTime": null,
+    "artist": null,
+    "copyright": null
+  },
+  {
+    "path": "Imágenes/Interior 4.jpeg",
+    "format": "JPEG",
+    "size": [
+      1500,
+      1000
+    ],
+    "sha256": "7075ff05fa217a534a31cacb850a04d3551a9b9f41f1f50ae59001d4accde510",
+    "dateTimeOriginal": "2026:09:04 08:59:11",
+    "dateTime": "2026:09:04 09:35:41",
+    "artist": null,
+    "copyright": null
+  },
+  {
+    "path": "Imágenes/Interior 5.jpg",
+    "format": "JPEG",
+    "size": [
+      1920,
+      1080
+    ],
+    "sha256": "e547a26f19a38576b46eae2d0017f371802b2dd72eedf899c62d9c8707f24eff",
+    "dateTimeOriginal": null,
+    "dateTime": null,
+    "artist": null,
+    "copyright": null
+  },
+  {
+    "path": "Imágenes/Interior.avif",
+    "format": "AVIF",
+    "size": [
+      1960,
+      1103
+    ],
+    "sha256": "6e31ea89fb9d4ea0d871e39ecc50b5623538418e0abc8310d79e2da9ba4fa02b",
+    "dateTimeOriginal": null,
+    "dateTime": null,
+    "artist": null,
+    "copyright": null
+  },
+  {
+    "path": "Imágenes/Vista superior.jpg",
+    "format": "JPEG",
+    "size": [
+      1920,
+      1280
+    ],
+    "sha256": "549d3d0b0ce77a27aefb546724b607ef6005014e1d9f6ad79e2fb67e7e7bcdba",
+    "dateTimeOriginal": null,
+    "dateTime": null,
+    "artist": null,
+    "copyright": null
+  }
+]

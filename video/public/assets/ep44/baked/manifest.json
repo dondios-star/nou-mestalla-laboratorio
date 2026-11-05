@@ -1,0 +1,28 @@
+{
+  "width": 1080,
+  "heroHeight": 1920,
+  "mapHeight": 810,
+  "heroFrames": 73,
+  "mapAFrames": 127,
+  "fps": 60,
+  "encoding": "WebP lossless + exact native-pixel delta rectangles",
+  "layout": {
+    "hero": {
+      "x": 103,
+      "y": 1059,
+      "width": 815,
+      "height": 214,
+      "frames": 73
+    },
+    "map-a": {
+      "x": 203,
+      "y": 424,
+      "width": 327,
+      "height": 189,
+      "frames": 127
+    }
+  },
+  "pixelReconstruction": "All rendered source frames compared pixel by pixel during packing",
+  "source": "src/episodes/ep44/models.ts + World.tsx",
+  "note": "Original procedural 3D. No 30fps conversion. Deliberate static holds."
+}
