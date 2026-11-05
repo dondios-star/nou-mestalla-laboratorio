@@ -1,0 +1,10 @@
+video/node_modules/
+video/out/
+video/build/
+video/.remotion/
+*.log
+__pycache__/
+.env
+.env.*
+!.env.example
+referencias/comunes/movimiento/*.mp4

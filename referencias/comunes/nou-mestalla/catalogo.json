@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "estado": "investigacion_bloqueada_por_red",
+  "actualizado": "2026-11-05",
+  "advertencia": "Candidatas, no fuentes verificadas en esta sesión. No hay fotos ni renders descargados. Las fechas de publicación no demuestran la fecha de toma.",
+  "fuentes": [
+    {
+      "id": "vcf-proyecto",
+      "url": "https://noumestalla.valenciacf.com/proyecto",
+      "editor": "Valencia CF · web oficial del proyecto",
+      "procedencia_enlace": "prompts conservados del usuario",
+      "objetivo": "Render oficial y ficha del estadio",
+      "fecha_indicada_no_verificada": "no verificada en esta sesión",
+      "fecha_consulta_contenido": null,
+      "fecha_intento": "2026-11-05",
+      "estado": "bloqueada_proxy_403",
+      "tipo_imagen_verificado": null,
+      "episodios": [
+        41,
+        42,
+        44,
+        45
+      ],
+      "licencia": null,
+      "imagenes_descargadas": []
+    },
+    {
+      "id": "vcf-reinicio",
+      "url": "https://www.valenciacf.com/el-valencia-cf-reanuda-la-construccion-del-nou-mestalla-e-inicia-la-cuenta-atras-para-trasladarse-a-su-nuevo-estadio-en-verano-de-2027",
+      "editor": "Valencia CF",
+      "procedencia_enlace": "prompts conservados del usuario",
+      "objetivo": "Comunicado y posibles fotografías del reinicio",
+      "fecha_indicada_no_verificada": "2025-01-10 según prompts, pendiente de verificar",
+      "fecha_consulta_contenido": null,
+      "fecha_intento": "2026-11-05",
+      "estado": "bloqueada_proxy_403",
+      "tipo_imagen_verificado": null,
+      "episodios": [
+        41,
+        42,
+        44
+      ],
+      "licencia": null,
+      "imagenes_descargadas": []
+    },
+    {
+      "id": "vcf-ejecucion",
+      "url": "https://www.valenciacf.com/comunicat-oficial-projecte-dexecucio-del-nou-mestalla",
+      "editor": "Valencia CF",
+      "procedencia_enlace": "prompts conservados del usuario",
+      "objetivo": "Proyecto de ejecución; comprobar tipo de cada imagen",
+      "fecha_indicada_no_verificada": "2024-10-11 según prompts, pendiente de verificar",
+      "fecha_consulta_contenido": null,
+      "fecha_intento": null,
+      "estado": "pendiente_consulta",
+      "tipo_imagen_verificado": null,
+      "episodios": [
+        42,
+        44
+      ],
+      "licencia": null,
+      "imagenes_descargadas": []
+    },
+    {
+      "id": "vcf-licencia",
+      "url": "https://www.valenciacf.com/comunicado-oficial-valencia-cf1",
+      "editor": "Valencia CF",
+      "procedencia_enlace": "prompts conservados del usuario",
+      "objetivo": "Licencia de obras; contexto documental",
+      "fecha_indicada_no_verificada": "2024-07-12 según prompt 44, pendiente de verificar",
+      "fecha_consulta_contenido": null,
+      "fecha_intento": null,
+      "estado": "pendiente_consulta",
+      "tipo_imagen_verificado": null,
+      "episodios": [
+        44
+      ],
+      "licencia": null,
+      "imagenes_descargadas": []
+    },
+    {
+      "id": "vcf-construccion",
+      "url": "https://www.valenciacf.com/comunicado-oficial-construccion-nou-mestalla",
+      "editor": "Valencia CF",
+      "procedencia_enlace": "prompts conservados del usuario",
+      "objetivo": "Comunicado de construcción; contexto documental",
+      "fecha_indicada_no_verificada": "no verificada en esta sesión",
+      "fecha_consulta_contenido": null,
+      "fecha_intento": null,
+      "estado": "pendiente_consulta",
+      "tipo_imagen_verificado": null,
+      "episodios": [
+        44
+      ],
+      "licencia": null,
+      "imagenes_descargadas": []
+    },
+    {
+      "id": "vcf-aforo",
+      "url": "https://noumestalla.valenciacf.com/aforo-general?lang=es",
+      "editor": "Valencia CF · web oficial del proyecto",
+      "procedencia_enlace": "prompts conservados del usuario",
+      "objetivo": "Render y detalles de aforo general, butacas y filas",
+      "fecha_indicada_no_verificada": "no verificada en esta sesión",
+      "fecha_consulta_contenido": null,
+      "fecha_intento": null,
+      "estado": "pendiente_consulta",
+      "tipo_imagen_verificado": null,
+      "episodios": [
+        45
+      ],
+      "licencia": null,
+      "imagenes_descargadas": []
+    },
+    {
+      "id": "vcf-historia",
+      "url": "https://www.valenciacf.com/nuestra-historia",
+      "editor": "Valencia CF",
+      "procedencia_enlace": "prompts conservados del usuario",
+      "objetivo": "Historia del club; contexto histórico",
+      "fecha_indicada_no_verificada": "no verificada en esta sesión",
+      "fecha_consulta_contenido": null,
+      "fecha_intento": null,
+      "estado": "pendiente_consulta",
+      "tipo_imagen_verificado": null,
+      "episodios": [
+        41
+      ],
+      "licencia": null,
+      "imagenes_descargadas": []
+    },
+    {
+      "id": "as-inicio",
+      "url": "https://as.com/futbol/2007/07/30/mas_futbol/1185746412_850215.html",
+      "editor": "Diario AS",
+      "procedencia_enlace": "prompts conservados del usuario",
+      "objetivo": "Noticia histórica y posible imagen del inicio",
+      "fecha_indicada_no_verificada": "2007-07-30 en URL, contenido pendiente de verificar",
+      "fecha_consulta_contenido": null,
+      "fecha_intento": null,
+      "estado": "pendiente_consulta",
+      "tipo_imagen_verificado": null,
+      "episodios": [
+        41
+      ],
+      "licencia": null,
+      "imagenes_descargadas": []
+    },
+    {
+      "id": "ondacero-aniversario",
+      "url": "https://www.ondacero.es/emisoras/comunidad-valenciana/valencia/noticias/cumplen-15-anos-inicio-obras-nuevo-mestalla_2022080162e783786e10ad00016bd8c8.html",
+      "editor": "Onda Cero",
+      "procedencia_enlace": "prompts conservados del usuario",
+      "objetivo": "Noticia retrospectiva y posible foto de la obra parada",
+      "fecha_indicada_no_verificada": "2022-08-01 en URL, contenido pendiente de verificar",
+      "fecha_consulta_contenido": null,
+      "fecha_intento": null,
+      "estado": "pendiente_consulta",
+      "tipo_imagen_verificado": null,
+      "episodios": [
+        41,
+        42,
+        44
+      ],
+      "licencia": null,
+      "imagenes_descargadas": []
+    },
+    {
+      "id": "commons-nou-mestalla",
+      "url": "https://commons.wikimedia.org/wiki/Category:Nou_Mestalla",
+      "editor": "Wikimedia Commons",
+      "procedencia_enlace": "candidata a buscar",
+      "objetivo": "Candidata para fotografías con autoría y licencia individual",
+      "fecha_indicada_no_verificada": "desconocida",
+      "fecha_consulta_contenido": null,
+      "fecha_intento": null,
+      "estado": "pendiente_consulta",
+      "tipo_imagen_verificado": null,
+      "episodios": [
+        41,
+        42,
+        44,
+        45
+      ],
+      "licencia": null,
+      "imagenes_descargadas": []
+    }
+  ],
+  "imagenes": []
+}

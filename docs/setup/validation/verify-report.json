@@ -1,0 +1,16 @@
+{
+  "probe": {
+    "codec_name": "h264",
+    "width": 1080,
+    "height": 1920,
+    "pix_fmt": "yuv420p",
+    "color_space": "bt709",
+    "r_frame_rate": "60/1",
+    "duration": "5.000000",
+    "nb_read_frames": "300"
+  },
+  "fullDecode": "pass",
+  "adjacentMovingFramesDistinct": true,
+  "sha256": "0066e2580615c9dd9d87393676b300da85e01f1f6f3c2dae5290b76c8165d306",
+  "visualReview": "Frames de muestra inspeccionados; alcance y límites en ../VALIDACION.md. No se afirma reproducción humana completa."
+}

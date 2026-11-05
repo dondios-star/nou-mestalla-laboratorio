@@ -1,0 +1,1 @@
+El repositorio de skills no contiene LICENSE independiente en el commit archivado. Su README autoriza la instalación. Se conserva como referencia la licencia del proyecto Remotion principal, recuperada de https://github.com/remotion-dev/remotion/blob/main/LICENSE.md el 2026-11-05; no se atribuye licencia MIT a estas guías.
